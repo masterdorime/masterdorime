@@ -1,12 +1,7 @@
-
 <div align="center">
-  <img src="./ascii-art%20(8).png" alt="Tristan Edgina ASCII Portrait" width="280" />
-
   <h1>TRISTAN EDGINA</h1>
   <h3>Computer Engineering Student · Telkom University</h3>
-
   <code>AI</code> · <code>ROBOTICS</code> · <code>SOFTWARE ENGINEERING</code> · <code>EMBEDDED SYSTEMS</code>
-
   <p>
     <a href="https://github.com/masterdorime">GitHub</a> ·
     <a href="https://tristanedgina-portofolio.vercel.app">Portfolio</a> ·
@@ -14,17 +9,18 @@
   </p>
 </div>
 
----
-
 <table>
-<tr>
-<td>
+  <tr>
+    <td width="38%" valign="middle" align="center">
+      <img src="./ascii-art%20(8).png" alt="Tristan Edgina ASCII Portrait" width="100%" />
+    </td>
+    <td width="62%" valign="middle">
 
 <pre>
 ┌─ SYSTEM INFORMATION ─────────────────────┐
 │                                          │
 │  USER       : Tristan Edgina             │
-│  UNIVERSITY : Telkom University          │
+│  EDUCATION  : Telkom University          │
 │  MAJOR      : Computer Engineering       │
 │  GRADUATION : 2030 (EXPECTED)            │
 │                                          │
@@ -34,20 +30,18 @@
 │  > Robotics & Embedded Systems           │
 │  > Full-Stack Development                │
 │  > Hardware / Software Integration       │
+│  > GAMING and MAKING A GAMEEEE           |
+|                                          | 
+├─ CURRENT OBJECTIVES ─────────────────────┤
 │                                          │
-├─ CURRENT BUILDS ─────────────────────────┤
+│  > Learn game development with Godot     │
+│  > Explore Unity game development        │
+│  > Build browser games with JavaScript   │
+│  > Improve gameplay & game systems       │
 │                                          │
-│  [01] HOBYD                              │
-│       Live Auction Marketplace           │
+├─ STATUS ─────────────────────────────────┤
 │                                          │
-│  [02] H2ORIZON                           │
-│       Smart Water Bottle                 │
-│                                          │
-│  [03] UROCHECK                           │
-│       AI-Assisted Urine Analysis         │
-│                                          │
-│  [04] PURESIP                            │
-│       Water Filtration                   │
+│  Learning. Experimenting. Building.      │
 │                                          │
 ├─ STATUS ─────────────────────────────────┤
 │                                          │
@@ -64,9 +58,14 @@
 
 ## TECH STACK
 
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,c,cpp,nextjs,react,tailwind,supabase,threejs,arduino,git,github,vercel" alt="Technology stack" />
+  <img
+    src="https://skillicons.dev/icons?i=html,css,js,ts,python,c,cpp,nextjs,react,tailwind,supabase,threejs,godot,unity,arduino,git,github,vercel"
+    alt="Technology stack: HTML, CSS, JavaScript, TypeScript, Python, C, C++, Next.js, React, Tailwind CSS, Supabase, Three.js, Godot, Unity, Arduino, Git, GitHub, and Vercel"
+  />
 </p>
+
 
 ---
 
@@ -80,7 +79,7 @@ An interactive engineering portfolio combining physical-system projects, experim
 **Tech:** Next.js · React · TypeScript · Three.js · Tailwind CSS
 
 [Live Portfolio](https://tristan-portfolio-omega.vercel.app/)
-
+icon
 ### 02. [HOBYD — Live Auction Marketplace](https://github.com/masterdorime/hobyd-prototype)
 
 A mobile-first marketplace prototype for collectors, combining real-time auctions, live video, community chat, bidding, and checkout. The initial target market is Pokémon TCG collectors.
