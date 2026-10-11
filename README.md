@@ -1,320 +1,147 @@
-# Tristan Edgina — Creative Engineering Portfolio
+
+<div align="center">
+  <img src="./ascii-art%20(8).png" alt="Tristan Edgina ASCII Portrait" width="280" />
+
+  <h1>TRISTAN EDGINA</h1>
+  <h3>Computer Engineering Student · Telkom University</h3>
+
+  <code>AI</code> · <code>ROBOTICS</code> · <code>SOFTWARE ENGINEERING</code> · <code>EMBEDDED SYSTEMS</code>
+
+  <p>
+    <a href="https://github.com/masterdorime">GitHub</a> ·
+    <a href="https://tristanedgina-portofolio.vercel.app">Portfolio</a> ·
+    <a href="https://hobyd-prototype.vercel.app">HOBYD Demo</a>
+  </p>
+</div>
+
+---
+
+<table>
+<tr>
+<td>
+
+<pre>
+┌─ SYSTEM INFORMATION ─────────────────────┐
+│                                          │
+│  USER       : Tristan Edgina             │
+│  UNIVERSITY : Telkom University          │
+│  MAJOR      : Computer Engineering       │
+│  GRADUATION : 2030 (EXPECTED)            │
+│                                          │
+├─ TECHNICAL INTERESTS ────────────────────┤
+│                                          │
+│  > Artificial Intelligence               │
+│  > Robotics & Embedded Systems           │
+│  > Full-Stack Development                │
+│  > Hardware / Software Integration       │
+│                                          │
+├─ CURRENT BUILDS ─────────────────────────┤
+│                                          │
+│  [01] HOBYD                              │
+│       Live Auction Marketplace           │
+│                                          │
+│  [02] H2ORIZON                           │
+│       Smart Water Bottle                 │
+│                                          │
+│  [03] UROCHECK                           │
+│       AI-Assisted Urine Analysis         │
+│                                          │
+│  [04] PURESIP                            │
+│       Water Filtration                   │
+│                                          │
+├─ STATUS ─────────────────────────────────┤
+│                                          │
+│  Turning ideas into working systems.     │
+│                                          │
+└──────────────────────────────────────────┘
+</pre>
+
+</td>
+</tr>
+</table>
+
+---
+
+## TECH STACK
 
 <p align="center">
-  <img src="https://github.com/masterdorime/masterdorime/blob/main/ascii-art%20(8).png" alt="Tristan Edgina" width="160" style="border-radius: 50%;" />
-</p>
-
-<p align="center">
-  <strong>A portfolio built at the intersection of physical engineering, software, and experimental interfaces.</strong>
-</p>
-
-<p align="center">
-  <a href="https://tristanedgina-portofolio.vercel.app">Live Site</a>
-  ·
-  <a href="https://github.com/masterdorime/portofolio-websites">Source</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js" alt="Next.js 16" />
-  <img src="https://img.shields.io/badge/React-19-149eca?style=flat-square&logo=react" alt="React 19" />
-  <img src="https://img.shields.io/badge/TypeScript-5.9-3178c6?style=flat-square&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Three.js-WebGL-black?style=flat-square&logo=threedotjs" alt="Three.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06b6d4?style=flat-square&logo=tailwindcss" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vitest-Tests-6e9f18?style=flat-square&logo=vitest" alt="Vitest" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,c,cpp,nextjs,react,tailwind,supabase,threejs,arduino,git,github,vercel" alt="Technology stack" />
 </p>
 
 ---
 
-## Overview
 
-This is the personal portfolio of **Tristan Edgina**, a Computer Engineering undergraduate at Telkom University, Bandung.
+## FEATURED PROJECTS
 
-The site is intentionally not structured like a conventional developer portfolio. Instead, it treats the portfolio itself as an engineering project: physical systems, software, interaction design, 3D graphics, motion, and visual storytelling are presented through one cohesive interface.
+### 01. [Personal Engineering Portfolio](https://github.com/masterdorime/portofolio-websites)
 
-The underlying idea is simple:
+An interactive engineering portfolio combining physical-system projects, experimental interfaces, interactive 3D graphics, motion, and technical storytelling.
 
-> **Build things that work, then wrap them in interfaces that make sense.**
+**Tech:** Next.js · React · TypeScript · Three.js · Tailwind CSS
 
-The portfolio showcases real hardware-oriented projects alongside the software and frontend systems used to present them.
+[Live Portfolio](https://tristan-portfolio-omega.vercel.app/)
 
----
+### 02. [HOBYD — Live Auction Marketplace](https://github.com/masterdorime/hobyd-prototype)
 
-## What Makes It Different
+A mobile-first marketplace prototype for collectors, combining real-time auctions, live video, community chat, bidding, and checkout. The initial target market is Pokémon TCG collectors.
 
-### Physical engineering meets frontend engineering
+**Tech:** Next.js · React · TypeScript · Supabase · LiveKit · Midtrans Sandbox
 
-The portfolio is designed around projects that cross the boundary between software and the physical world:
+[Live Prototype](https://hobyd-prototype.vercel.app/)
 
-- AI-assisted embedded systems
-- Water filtration and sensing
-- Wearable thermal systems
-- IoT and sensor-driven prototypes
-- Edge inference
-- Custom hardware
-- Interactive WebGL experiences
+### 03. [Flying Fish Momentum](https://github.com/masterdorime/Flying-Fih-Remaster)
 
-The interface reflects that same mindset. It uses motion, 3D rendering, shaders, custom interaction systems, and responsive layouts as functional parts of the experience rather than decoration.
+A browser-based 3D endless-runner featuring timing-based momentum, flight progression, procedural gameplay systems, and adaptive music.
 
-### Experimental visual direction
+**Tech:** JavaScript · Three.js · Web Audio API
 
-The visual system combines:
+### 04. [Aim Drill 3D](https://github.com/masterdorime/aim-drill-game-nyahu)
 
-- Industrial neo-minimalism
-- Retro-dreamy atmosphere
-- Dark interfaces
-- Analog-inspired textures
-- Technical typography
-- Cinematic motion
-- Interactive 3D
-- Subtle shader effects
+A browser-playable 3D aim trainer featuring six training scenarios, customizable drills, performance analysis, scenario-based ranks, and local leaderboards.
 
-The design deliberately avoids generic dashboard layouts, excessive neon cyberpunk styling, and template-driven portfolio patterns.
+**Tech:** Godot · GDScript · Web Export
+
+[Play Online](https://masterdorime.github.io/aim-drill-game-nyahu/)
+
+### 05. [Penghitung Traffic YOLO](https://github.com/masterdorime/penghitung-traffic-yolo)
+
+A local vehicle-counting system for CCTV footage using YOLO detection and vehicle tracking, with calibrated counting lines, traffic-period reports, a dashboard, and CSV export.
+
+**Tech:** Python · YOLO · Computer Vision · Vehicle Tracking
 
 ---
 
-## Features
+## GITHUB STATISTICS
 
-### Interactive landing experience
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=masterdorime&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=masterdorime&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
+</div>
 
-- Responsive hero section
-- Interactive 3D character experience
-- Cursor-reactive elements
-- Custom motion primitives
-- Smooth scrolling
-- Atmospheric visual effects
-- Reduced-motion handling
+## CONTRIBUTION STREAK
 
-### Project laboratory
-
-Projects are stored as structured data rather than being hardcoded directly into individual UI components.
-
-Each project can contain:
-
-- Cover image
-- Gallery
-- Category
-- Year
-- Description
-- Problem statement
-- Engineering approach
-- Technology stack
-- Hardware breakdown
-- Dedicated case-study route
-
-Current project categories:
-
-| Category | Focus |
-| -------- | ----- |
-| AI | Embedded AI and edge inference |
-| IoT | Connected and sensor-driven systems |
-| Hardware | Physical engineering and electronics |
-
-### Skills matrix
-
-The portfolio includes an interactive skill system spanning:
-
-- Frontend
-- Backend
-- Tools
-- Infrastructure
-- DevOps
-- Observability
-- Soft skills
-
-The skill graph is represented as typed data and can calculate relationships between skills and their respective hubs.
-
-### Experience archive
-
-Competition and experience material is organized as reusable slide collections rather than isolated static sections.
-
-Current archives include:
-
-- Generasi Terampil
-- JISF
-- Samsung Innovation Campus
-- SRC 2025
-- Additional archive material
-
-### Terminal interface
-
-A state-driven terminal experience provides commands for navigating portfolio information.
-
-Available commands:
-
-`help` · `whoami` · `status` · `contact` · `socials` · `projects` · `clear`
-
-### Internationalization
-
-The site supports English and Indonesian content through a centralized dictionary and language provider.
-
-This keeps:
-
-- UI copy
-- Project descriptions
-- About content
-- Terminal responses
-- Navigation
-- Form labels
-
-separate from presentation logic.
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=masterdorime&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+</div>
 
 ---
 
-## Featured Projects
+## CONNECT
 
-### Urocheck
+<div align="center">
+  <a href="https://github.com/masterdorime">
+    <img src="https://img.shields.io/badge/GitHub-masterdorime-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="https://tristanedgina-portofolio.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-0078D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://hobyd-prototype.vercel.app">
+    <img src="https://img.shields.io/badge/HOBYD-Live_Demo-635BFF?style=for-the-badge" alt="HOBYD Demo" />
+  </a>
+</div>
 
-**Portable AI urine analysis device**
+<br />
 
-A compact screening concept combining optical sensing, embedded systems, and local AI inference.
-
-**Core technologies**
-
-- Embedded C
-- AI inference
-- Optical sensor arrays
-- UART / I2C
-- Microcontroller
-- Custom sampling hardware
-
-### Puresip
-
-**Ultrafiltration straw with live water-quality sensing**
-
-A portable filtration concept combining hollow-fiber ultrafiltration with live turbidity and TDS monitoring.
-
-**Core technologies**
-
-- Hollow-fiber ultrafiltration
-- Turbidity sensing
-- TDS sensing
-- Low-power MCU
-- Embedded electronics
-
-### Techware
-
-**AI-assisted thermal jacket**
-
-A wearable thermal-control concept using distributed sensing and thermal elements to dynamically respond to environmental and body-temperature changes.
-
-**Core technologies**
-
-- Thermal control
-- Wearable sensors
-- Edge inference
-- BLE
-- Flexible power systems
-
-### H2orizon
-
-**Smart water bottle with ultrafiltration and micro-pump**
-
-A rugged portable water system combining filtration, active pumping, and real-time water-quality sensing.
-
-**Core technologies**
-
-- Ultrafiltration
-- Micro diaphragm pump
-- TDS / turbidity sensing
-- Low-power MCU
-- Rechargeable LiPo system
-
----
-
-## Technology Stack
-
-### Core
-
-| Technology | Role |
-| ---------- | ---- |
-| Next.js 16 | Application framework, routing, metadata, rendering |
-| React 19 | UI architecture |
-| TypeScript 5.9 | Static typing |
-| Tailwind CSS 4 | Styling and design tokens |
-
-### 3D and Graphics
-
-| Technology | Role |
-| ---------- | ---- |
-| Three.js | WebGL / 3D rendering |
-| React Three Fiber | React-based Three.js architecture |
-| @react-three/drei | Three.js utilities and helpers |
-| @react-three/rapier | Physics |
-| GLSL | Custom shader effects |
-| OGL | Lightweight graphics primitives |
-| Meshopt | 3D asset optimization |
-
-### Motion and Interaction
-
-| Technology | Role |
-| ---------- | ---- |
-| Framer Motion | UI animation and spring physics |
-| GSAP | Timeline and advanced motion |
-| Lenis | Smooth scrolling |
-| @use-gesture/react | Gesture interaction |
-| Ponytail | Interactive visual effects |
-
-### Tooling
-
-| Technology | Role |
-| ---------- | ---- |
-| Vitest | Automated tests |
-| Sharp | Image processing |
-| glTF Transform | 3D asset optimization |
-| Puppeteer Core | Browser automation / visual tooling |
-| PostCSS | CSS processing |
-
----
-
-## Architecture
-
-The application follows a feature-oriented structure inside the Next.js App Router.
-
-```text
-.
-├── public/
-│   ├── images/
-│   └── models/
-│
-├── src/
-│   ├── app/
-│   │   ├── projects/
-│   │   ├── support/
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   ├── sitemap.ts
-│   │   └── not-found.tsx
-│   │
-│   ├── components/
-│   │   ├── about/
-│   │   ├── atmosphere/
-│   │   ├── contact/
-│   │   ├── cursor/
-│   │   ├── landing/
-│   │   ├── motion/
-│   │   ├── nav/
-│   │   ├── projects/
-│   │   ├── terminal/
-│   │   ├── three/
-│   │   ├── theme/
-│   │   └── ui/
-│   │
-│   ├── data/
-│   │   ├── experience.ts
-│   │   ├── projects.ts
-│   │   ├── site.ts
-│   │   └── skills.ts
-│   │
-│   ├── i18n/
-│   │   ├── dict.ts
-│   │   └── LanguageProvider.tsx
-│   │
-│   └── lib/
-│
-├── docs/
-├── scripts/
-├── next.config.ts
-├── opencode.json
-├── package.json
-├── tsconfig.json
-└── vitest.config.ts
+<div align="center">
+  <sub>ENGINEERED WITH CURIOSITY. BUILT WITH PURPOSE.</sub>
+</div>
