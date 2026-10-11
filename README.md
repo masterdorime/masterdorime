@@ -12,7 +12,7 @@
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="[PASTE_YOUR_ASCII_IMAGE_URL_HERE](https://github.com/masterdorime/masterdorime/blob/main/ascii-art%20(8).png)" width="100%" alt="Tristan Edgina ASCII portrait" />
+<img src="https://github.com/masterdorime/masterdorime/blob/main/ascii-art%20(8).png" width="100%" alt="Tristan Edgina ASCII portrait" />
 
 </td>
 <td width="50%" valign="middle">
