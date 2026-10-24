@@ -8,6 +8,26 @@
   <img src="https://www.gitskins.com/api/section/hero?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Tristan Edgina — profile card" />
 </p>
 
+<p align="center">
+  <img src="./ascii-art%20(8).png" width="40%" alt="Tristan Edgina portrait" />
+</p>
+
+---
+
+## TECH STACK
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,c,cpp,cs,nextjs,react,tailwind,supabase,threejs,godot,unity,arduino,git,github,vercel&perline=19" width="100%" alt="HTML, CSS, JavaScript, TypeScript, Python, C, C++, C#, Next.js, React, Tailwind CSS, Supabase, Three.js, Godot, Unity, Arduino, Git, GitHub, Vercel" />
+</p>
+
+---
+
+## LANGUAGE STACK
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stack?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Repository-weighted language stack" />
+</p>
+
 ---
 
 ## CONTRIBUTION CITY
@@ -33,14 +53,6 @@
 
 <p align="center">
   <img src="https://www.gitskins.com/api/section/stats?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Contributions, repositories, stars and followers" />
-</p>
-
----
-
-## LANGUAGE STACK
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Repository-weighted language stack" />
 </p>
 
 ---
