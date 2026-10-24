@@ -12,6 +12,10 @@
   <img src="./ascii-portrait.svg" width="100%" alt="Animated ASCII portrait of Tristan Edgina, printing itself line by line in a dark terminal panel" />
 </p>
 
+<p align="center">
+  <img src="./ascii-namecard.svg" width="100%" alt="Animated ASCII name card: the name Tristan Edgina types itself out in large teal glyphs above a shell prompt reading whoami, which prints Computer Engineering Student at Telkom University, AI / Robotics / Embedded Systems / Game Dev, and masih belajar" />
+</p>
+
 ---
 
 ## TECH STACK
