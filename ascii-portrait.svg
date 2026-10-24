@@ -1,0 +1,356 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1101.40 1127.00" width="1101" height="1127" xml:space="preserve" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Tristan Edgina - animated ASCII portrait</title>
+  <desc id="dsc">An ASCII portrait of Tristan Edgina drawn as teal glyphs on a dark terminal panel. The image prints itself line by line, then the glyph gain lifts and settles.</desc>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 10.4px; fill: url(#gain); white-space: pre; }
+    @keyframes r0{0%{opacity:1}100%{opacity:1}}
+    @keyframes r1{0%,0.301%{opacity:0}0.444%{opacity:1}100%{opacity:1}}
+    @keyframes r2{0%,0.602%{opacity:0}0.744%{opacity:1}100%{opacity:1}}
+    @keyframes r3{0%,0.902%{opacity:0}1.045%{opacity:1}100%{opacity:1}}
+    @keyframes r4{0%,1.203%{opacity:0}1.346%{opacity:1}100%{opacity:1}}
+    @keyframes r5{0%,1.504%{opacity:0}1.647%{opacity:1}100%{opacity:1}}
+    @keyframes r6{0%,1.805%{opacity:0}1.947%{opacity:1}100%{opacity:1}}
+    @keyframes r7{0%,2.105%{opacity:0}2.248%{opacity:1}100%{opacity:1}}
+    @keyframes r8{0%,2.406%{opacity:0}2.549%{opacity:1}100%{opacity:1}}
+    @keyframes r9{0%,2.707%{opacity:0}2.85%{opacity:1}100%{opacity:1}}
+    @keyframes r10{0%,3.008%{opacity:0}3.15%{opacity:1}100%{opacity:1}}
+    @keyframes r11{0%,3.308%{opacity:0}3.451%{opacity:1}100%{opacity:1}}
+    @keyframes r12{0%,3.609%{opacity:0}3.752%{opacity:1}100%{opacity:1}}
+    @keyframes r13{0%,3.91%{opacity:0}4.053%{opacity:1}100%{opacity:1}}
+    @keyframes r14{0%,4.211%{opacity:0}4.353%{opacity:1}100%{opacity:1}}
+    @keyframes r15{0%,4.511%{opacity:0}4.654%{opacity:1}100%{opacity:1}}
+    @keyframes r16{0%,4.812%{opacity:0}4.955%{opacity:1}100%{opacity:1}}
+    @keyframes r17{0%,5.113%{opacity:0}5.256%{opacity:1}100%{opacity:1}}
+    @keyframes r18{0%,5.414%{opacity:0}5.556%{opacity:1}100%{opacity:1}}
+    @keyframes r19{0%,5.714%{opacity:0}5.857%{opacity:1}100%{opacity:1}}
+    @keyframes r20{0%,6.015%{opacity:0}6.158%{opacity:1}100%{opacity:1}}
+    @keyframes r21{0%,6.316%{opacity:0}6.459%{opacity:1}100%{opacity:1}}
+    @keyframes r22{0%,6.617%{opacity:0}6.759%{opacity:1}100%{opacity:1}}
+    @keyframes r23{0%,6.917%{opacity:0}7.06%{opacity:1}100%{opacity:1}}
+    @keyframes r24{0%,7.218%{opacity:0}7.361%{opacity:1}100%{opacity:1}}
+    @keyframes r25{0%,7.519%{opacity:0}7.662%{opacity:1}100%{opacity:1}}
+    @keyframes r26{0%,7.82%{opacity:0}7.962%{opacity:1}100%{opacity:1}}
+    @keyframes r27{0%,8.12%{opacity:0}8.263%{opacity:1}100%{opacity:1}}
+    @keyframes r28{0%,8.421%{opacity:0}8.564%{opacity:1}100%{opacity:1}}
+    @keyframes r29{0%,8.722%{opacity:0}8.865%{opacity:1}100%{opacity:1}}
+    @keyframes r30{0%,9.023%{opacity:0}9.165%{opacity:1}100%{opacity:1}}
+    @keyframes r31{0%,9.323%{opacity:0}9.466%{opacity:1}100%{opacity:1}}
+    @keyframes r32{0%,9.624%{opacity:0}9.767%{opacity:1}100%{opacity:1}}
+    @keyframes r33{0%,9.925%{opacity:0}10.068%{opacity:1}100%{opacity:1}}
+    @keyframes r34{0%,10.226%{opacity:0}10.368%{opacity:1}100%{opacity:1}}
+    @keyframes r35{0%,10.526%{opacity:0}10.669%{opacity:1}100%{opacity:1}}
+    @keyframes r36{0%,10.827%{opacity:0}10.97%{opacity:1}100%{opacity:1}}
+    @keyframes r37{0%,11.128%{opacity:0}11.271%{opacity:1}100%{opacity:1}}
+    @keyframes r38{0%,11.429%{opacity:0}11.571%{opacity:1}100%{opacity:1}}
+    @keyframes r39{0%,11.729%{opacity:0}11.872%{opacity:1}100%{opacity:1}}
+    @keyframes r40{0%,12.03%{opacity:0}12.173%{opacity:1}100%{opacity:1}}
+    @keyframes r41{0%,12.331%{opacity:0}12.474%{opacity:1}100%{opacity:1}}
+    @keyframes r42{0%,12.632%{opacity:0}12.774%{opacity:1}100%{opacity:1}}
+    @keyframes r43{0%,12.932%{opacity:0}13.075%{opacity:1}100%{opacity:1}}
+    @keyframes r44{0%,13.233%{opacity:0}13.376%{opacity:1}100%{opacity:1}}
+    @keyframes r45{0%,13.534%{opacity:0}13.677%{opacity:1}100%{opacity:1}}
+    @keyframes r46{0%,13.835%{opacity:0}13.977%{opacity:1}100%{opacity:1}}
+    @keyframes r47{0%,14.135%{opacity:0}14.278%{opacity:1}100%{opacity:1}}
+    @keyframes r48{0%,14.436%{opacity:0}14.579%{opacity:1}100%{opacity:1}}
+    @keyframes r49{0%,14.737%{opacity:0}14.88%{opacity:1}100%{opacity:1}}
+    @keyframes r50{0%,15.038%{opacity:0}15.18%{opacity:1}100%{opacity:1}}
+    @keyframes r51{0%,15.338%{opacity:0}15.481%{opacity:1}100%{opacity:1}}
+    @keyframes r52{0%,15.639%{opacity:0}15.782%{opacity:1}100%{opacity:1}}
+    @keyframes r53{0%,15.94%{opacity:0}16.083%{opacity:1}100%{opacity:1}}
+    @keyframes r54{0%,16.241%{opacity:0}16.383%{opacity:1}100%{opacity:1}}
+    @keyframes r55{0%,16.541%{opacity:0}16.684%{opacity:1}100%{opacity:1}}
+    @keyframes r56{0%,16.842%{opacity:0}16.985%{opacity:1}100%{opacity:1}}
+    @keyframes r57{0%,17.143%{opacity:0}17.286%{opacity:1}100%{opacity:1}}
+    @keyframes r58{0%,17.444%{opacity:0}17.586%{opacity:1}100%{opacity:1}}
+    @keyframes r59{0%,17.744%{opacity:0}17.887%{opacity:1}100%{opacity:1}}
+    @keyframes r60{0%,18.045%{opacity:0}18.188%{opacity:1}100%{opacity:1}}
+    @keyframes r61{0%,18.346%{opacity:0}18.489%{opacity:1}100%{opacity:1}}
+    @keyframes r62{0%,18.647%{opacity:0}18.789%{opacity:1}100%{opacity:1}}
+    @keyframes r63{0%,18.947%{opacity:0}19.09%{opacity:1}100%{opacity:1}}
+    @keyframes r64{0%,19.248%{opacity:0}19.391%{opacity:1}100%{opacity:1}}
+    @keyframes r65{0%,19.549%{opacity:0}19.692%{opacity:1}100%{opacity:1}}
+    @keyframes r66{0%,19.85%{opacity:0}19.992%{opacity:1}100%{opacity:1}}
+    @keyframes r67{0%,20.15%{opacity:0}20.293%{opacity:1}100%{opacity:1}}
+    @keyframes r68{0%,20.451%{opacity:0}20.594%{opacity:1}100%{opacity:1}}
+    @keyframes r69{0%,20.752%{opacity:0}20.895%{opacity:1}100%{opacity:1}}
+    @keyframes r70{0%,21.053%{opacity:0}21.195%{opacity:1}100%{opacity:1}}
+    @keyframes r71{0%,21.353%{opacity:0}21.496%{opacity:1}100%{opacity:1}}
+    @keyframes r72{0%,21.654%{opacity:0}21.797%{opacity:1}100%{opacity:1}}
+    @keyframes r73{0%,21.955%{opacity:0}22.098%{opacity:1}100%{opacity:1}}
+    @keyframes r74{0%,22.256%{opacity:0}22.398%{opacity:1}100%{opacity:1}}
+    @keyframes r75{0%,22.556%{opacity:0}22.699%{opacity:1}100%{opacity:1}}
+    @keyframes r76{0%,22.857%{opacity:0}23%{opacity:1}100%{opacity:1}}
+    @keyframes r77{0%,23.158%{opacity:0}23.301%{opacity:1}100%{opacity:1}}
+    @keyframes r78{0%,23.459%{opacity:0}23.602%{opacity:1}100%{opacity:1}}
+    @keyframes r79{0%,23.759%{opacity:0}23.902%{opacity:1}100%{opacity:1}}
+    @keyframes r80{0%,24.06%{opacity:0}24.203%{opacity:1}100%{opacity:1}}
+    @keyframes r81{0%,24.361%{opacity:0}24.504%{opacity:1}100%{opacity:1}}
+    @keyframes r82{0%,24.662%{opacity:0}24.805%{opacity:1}100%{opacity:1}}
+    @keyframes r83{0%,24.962%{opacity:0}25.105%{opacity:1}100%{opacity:1}}
+    @keyframes r84{0%,25.263%{opacity:0}25.406%{opacity:1}100%{opacity:1}}
+    @keyframes r85{0%,25.564%{opacity:0}25.707%{opacity:1}100%{opacity:1}}
+    @keyframes r86{0%,25.865%{opacity:0}26.008%{opacity:1}100%{opacity:1}}
+    @keyframes r87{0%,26.165%{opacity:0}26.308%{opacity:1}100%{opacity:1}}
+    @keyframes r88{0%,26.466%{opacity:0}26.609%{opacity:1}100%{opacity:1}}
+    @keyframes r89{0%,26.767%{opacity:0}26.91%{opacity:1}100%{opacity:1}}
+    @keyframes r90{0%,27.068%{opacity:0}27.211%{opacity:1}100%{opacity:1}}
+    @keyframes r91{0%,27.368%{opacity:0}27.511%{opacity:1}100%{opacity:1}}
+    @keyframes r92{0%,27.669%{opacity:0}27.812%{opacity:1}100%{opacity:1}}
+    @keyframes r93{0%,27.97%{opacity:0}28.113%{opacity:1}100%{opacity:1}}
+    @keyframes r94{0%,28.271%{opacity:0}28.414%{opacity:1}100%{opacity:1}}
+    @keyframes frameA{0%,57.143%{opacity:1}61.429%{opacity:0}85.714%{opacity:0}90%,100%{opacity:1}}
+    @keyframes frameB{0%,57.143%{opacity:0}61.429%{opacity:1}85.714%{opacity:1}90%,100%{opacity:0}}
+    @keyframes scan{0%{transform:translateY(0px)}28.571%{transform:translateY(1034.00px)}100%{transform:translateY(1034.00px)}}
+    @keyframes scanFade{0%{opacity:1}28.571%{opacity:1}31.071%{opacity:0}100%{opacity:0}}
+    @keyframes chromeBlink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @media (prefers-reduced-motion: reduce) {
+      #frameA { animation: none !important; opacity: 1 !important; }
+      #frameB { animation: none !important; opacity: 0 !important; }
+      #scan   { animation: none !important; opacity: 0 !important; }
+      #frameA text { animation: none !important; opacity: 1 !important; }
+      #chromeCaret { animation: none !important; opacity: 1 !important; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="gain" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.55" stop-color="#38d9c8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.18"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="0.5" cy="0.08" r="0.9">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1.1" fill="#000" fill-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1099.40" height="1125.00" rx="16" fill="#080e16"/>
+  <rect x="1" y="1" width="1099.40" height="1125.00" rx="16" fill="url(#bloom)"/>
+  <rect x="1" y="1" width="1099.40" height="1125.00" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
+  <rect x="1" y="1" width="1099.40" height="1125.00" rx="16" fill="none" stroke="#2dd4bf" stroke-opacity="0.45" stroke-width="1.4" filter="url(#soft)"/>
+
+  <g>
+    <circle cx="32" cy="35" r="4.4" fill="#f87171" fill-opacity="0.85"/>
+    <circle cx="47" cy="35" r="4.4" fill="#fbbf24" fill-opacity="0.85"/>
+    <circle cx="62" cy="35" r="4.4" fill="#34d399" fill-opacity="0.85"/>
+    <text x="26" y="50" style="font-size:11.4px" fill="#7fe7d6" fill-opacity="0.72">tristan@edgina: ~/profile $ cat portrait.txt</text>
+    <rect id="chromeCaret" x="288.0" y="40" width="7" height="12.5" fill="#5eead4" fill-opacity="0.85" style="animation:chromeBlink 1.15s step-end infinite"/>
+  </g>
+  <line x1="26" y1="46" x2="1075.40" y2="46" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1"/>
+
+  <g>
+  <g id="frameA" style="animation:frameA 14s linear infinite">
+    <text x="26" y="64.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r0 14s linear infinite">                                                                                                                                                               </text>
+    <text x="26" y="75.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r1 14s linear infinite">                                                                ."                   :  ' :                                                                    </text>
+    <text x="26" y="86.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r2 14s linear infinite">   .                                                          -:      ,     +   ~,  :       +;:,.                                                              </text>
+    <text x="26" y="97.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r3 14s linear infinite">   .                                                        :~           : :  +~  ;'++  "      :~:                                                             </text>
+    <text x="26" y="108.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r4 14s linear infinite">   .                                                      :;=      ;-'  : =" "  :    '*  "''     ,=:'                                                          </text>
+    <text x="26" y="119.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r5 14s linear infinite">   .                                                     ~;     =;~+  .:  '     +     ,,      ;     +,                                                         </text>
+    <text x="26" y="130.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r6 14s linear infinite">   .                                                   :+.  ,";,."   ~ :; ~    ; :+'   , :    '~      =:                                                       </text>
+    <text x="26" y="141.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r7 14s linear infinite">   .                                                  ~+    ","          ~.  ~    ,      ~    . :      +~.                                                     </text>
+    <text x="26" y="152.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r8 14s linear infinite">   .                                                "-'   :,    : ',.,       '     " ::   %'            .=;                                                    </text>
+    <text x="26" y="163.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r9 14s linear infinite">   .                                               '~     .       ~, .+:;,,:  .+       ;   +~       .     *~                                                   </text>
+    <text x="26" y="174.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r10 14s linear infinite">   .                                              ;=   , :  "    ~  :' , .: ,;           ;  #,         -   ;:                                                  </text>
+    <text x="26" y="185.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r11 14s linear infinite">   .                                             .+   '.*   , +   ,    :  .':+:  '   ";:.    :#             -;                                                 </text>
+    <text x="26" y="196.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r12 14s linear infinite">   .                                             =    '    : ;. ;:  ..     :~  ,:~'.   .,' ~   ~~ +*:        +:                                                </text>
+    <text x="26" y="207.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r13 14s linear infinite">   .                                            :+   .~    ~ '  '  ,          :  "~=:=+" +:-'" "' ,~+' #      =.                                               </text>
+    <text x="26" y="218.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r14 14s linear infinite">   .                                            *,  .-   :    '  -   .                         +  ; *" .       =                                               </text>
+    <text x="26" y="229.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r15 14s linear infinite">   .                                           '~      ; ":.'    "                                   ,*"       ".                                              </text>
+    <text x="26" y="240.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r16 14s linear infinite">   .                                           -        -++                                            ;~;      ~                                              </text>
+    <text x="26" y="251.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r17 14s linear infinite">   .                                           ~   +  ;~;                                               + :     + .                                            </text>
+    <text x="26" y="262.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r18 14s linear infinite">   .                                           ~   +  :%                                                   ~    ~                                              </text>
+    <text x="26" y="273.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r19 14s linear infinite">   .                                           ,   ' ":                                                         ',                                             </text>
+    <text x="26" y="284.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r20 14s linear infinite">   .                                           ;   ,  ~                                                      .   ~                                             </text>
+    <text x="26" y="295.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r21 14s linear infinite">   .                                           ~      :                                                   .     ";                                             </text>
+    <text x="26" y="306.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r22 14s linear infinite">   .                                           +  "  ..                                                   ~'  '  ~                                             </text>
+    <text x="26" y="317.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r23 14s linear infinite">   .                                           =    .~'                                                    +: ~ ,;                                             </text>
+    <text x="26" y="328.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r24 14s linear infinite">   .                                           =.    ~                                                      ~ ;  ,                                             </text>
+    <text x="26" y="339.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r25 14s linear infinite">   .                                           :~ ~  =                                                          ~ .                                            </text>
+    <text x="26" y="350.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r26 14s linear infinite">   .                                            +   ";                                 ,,+%%%;'"            '" '*,                                             </text>
+    <text x="26" y="361.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r27 14s linear infinite">   .                                            ::  =     ~,.  ;~%%**+::                       "             ~~"  -                                            </text>
+    <text x="26" y="372.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r28 14s linear infinite">   .                                            ;*  =     ' .                                                :+   +:                                           </text>
+    <text x="26" y="383.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r29 14s linear infinite">   .                                           +~                                                             .    ,                                           </text>
+    <text x="26" y="394.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r30 14s linear infinite">   .                                           +                                         .".    "::"          :    +                                           </text>
+    <text x="26" y="405.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r31 14s linear infinite">                                               ,   "        .   :;     ;               *   *~.                ,    :'                                          </text>
+    <text x="26" y="416.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r32 14s linear infinite">   .                                           ,          .       ,+                     -                    ~     :                                          </text>
+    <text x="26" y="427.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r33 14s linear infinite">   .                                           :                                                                   ""                                          </text>
+    <text x="26" y="438.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r34 14s linear infinite">   .                                           +                                                               .   *'                                          </text>
+    <text x="26" y="449.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r35 14s linear infinite">   .                                           ~~                                                                  ~                                           </text>
+    <text x="26" y="460.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r36 14s linear infinite">   .                                            +.                                                                 :                                           </text>
+    <text x="26" y="471.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r37 14s linear infinite">   .                                            ,~                                                            ,    ;                                           </text>
+    <text x="26" y="482.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r38 14s linear infinite">   .                                             '                                                            #    ;                                           </text>
+    <text x="26" y="493.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r39 14s linear infinite">   .                                             +  ":                                                        ~   -:                                           </text>
+    <text x="26" y="504.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r40 14s linear infinite">   .                                             *  .+                                                      ';    =                                            </text>
+    <text x="26" y="515.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r41 14s linear infinite">   .                                             :~  :~                              :                      .   *=                                             </text>
+    <text x="26" y="526.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r42 14s linear infinite">   .                                              -*  -                          '                             ";                                              </text>
+    <text x="26" y="537.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r43 14s linear infinite">   .                                               +,  :                   *    "   %                      '   ~                                               </text>
+    <text x="26" y="548.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r44 14s linear infinite">   .                                                =                    *+           :-                   '-  -                                               </text>
+    <text x="26" y="559.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r45 14s linear infinite">   .                                                :  '              .+*               .=                 .  ':                                               </text>
+    <text x="26" y="570.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r46 14s linear infinite">   .                                                .+  ~'           -";             :   . .               :                                                   </text>
+    <text x="26" y="581.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r47 14s linear infinite">   .        .      .                                 :-             =:    :  +  :       ""-.+                +~      .                                         </text>
+    <text x="26" y="592.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r48 14s linear infinite">   .                                                  ~            -=.                      *                ;                                                 </text>
+    <text x="26" y="603.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r49 14s linear infinite">   .                                                  :.  =        :+                      , +          ;   -"                                                 </text>
+    <text x="26" y="614.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r50 14s linear infinite">   .                                                   =   :                  ;,.':'                   ~   =:                                                  </text>
+    <text x="26" y="625.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r51 14s linear infinite">   .                                                   '=,  ,                ~:,=~,:                  -" ,  :+'                                                </text>
+    <text x="26" y="636.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r52 14s linear infinite">   .                                                    '#"  ,                                       -*  =    +:                                               </text>
+    <text x="26" y="647.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r53 14s linear infinite">   .                                                   '-     =                                    ,~    =.     ~:                                             </text>
+    <text x="26" y="658.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r54 14s linear infinite">   .                                                  ~*    +  **                                 -=    .='       +";.                                         </text>
+    <text x="26" y="669.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r55 14s linear infinite">   .                                               ,;"'     *~ : ;                             ~:::     ;;           ;:::;, .                                  </text>
+    <text x="26" y="680.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r56 14s linear infinite">   .                                          ":: .,    ,  '"~  , **=                '       ;: -.  ,   :":               :"'~;."                              </text>
+    <text x="26" y="691.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r57 14s linear infinite">   .                                       ,:-.    .   %   ~ ;*    ~ ~;+  "          -   :,~"+''.       ="            ==.       '+:"::"                        </text>
+    <text x="26" y="702.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r58 14s linear infinite">   .                                     ;':     :=  .='   ,  %  ~   ;  .':~, ',  ..   +;"";"," :       +              ==:            -'':~. ..                </text>
+    <text x="26" y="713.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r59 14s linear infinite">   .                                 "~=      ',":   ::       :#  :   ~-;:,,;' :' ;~   ',  -+.         .-               =:"        ,       '   "++'":"         </text>
+    <text x="26" y="724.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r60 14s linear infinite">   .                             ":.-      +-  ..  :           ~+  .     '~ "+~+. =:~+, : :.           *;                +  .        '               .+'";,    </text>
+    <text x="26" y="735.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r61 14s linear infinite">   .                        .'-,.*      .~~                     %  *        "'         .               *'                ."   '                           +~:;,</text>
+    <text x="26" y="746.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r62 14s linear infinite">   .               .   ."':+          :++'             '  .     ,@  +                                  * : .              :~   .         "'                    </text>
+    <text x="26" y="757.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r63 14s linear infinite">   .                 ::;#           .+~.                       " ~*  "                              ~  :                   ;                                   </text>
+    <text x="26" y="768.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r64 14s linear infinite">   .             :-":"       "     :;                            .*  ~                              = ::                    .   .                              </text>
+    <text x="26" y="779.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r65 14s linear infinite">   .        '":=.                 ,'                              '#  ~                               ;.                                                       </text>
+    <text x="26" y="790.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r66 14s linear infinite">   .     ,;:#"        '                                   ,        +: ~,                           "  =       "              '                                 </text>
+    <text x="26" y="801.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r67 14s linear infinite">      ,+':                  .               .             ,         *  -                           ~  ~           . :"  ';==;.                                 </text>
+    <text x="26" y="812.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r68 14s linear infinite">  ,:~~           .      .                   ,;;+,                   "+                            @  ~   .          :="           .                            </text>
+    <text x="26" y="823.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r69 14s linear infinite"> ;        ":.      .                          "~:;~=~:"              +: :                        ": -,           ,+                .          . '              </text>
+    <text x="26" y="834.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r70 14s linear infinite">     '  ::;                                        ''                .*  @+,:                    ~  +     .               ,               .                    </text>
+    <text x="26" y="845.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r71 14s linear infinite">    :       .                                                         .*  -."~-+~        ~-~+:. *  %.    .           .     -:                                  </text>
+    <text x="26" y="856.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r72 14s linear infinite">  ..  '                                                                +  +,   .::~+~~+-;~;  ..*. +~                                            .      '       </text>
+    <text x="26" y="867.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r73 14s linear infinite">   . '.                                                                .%  :              "    -  *    '                 '    .                           :    </text>
+    <text x="26" y="878.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r74 14s linear infinite">   .  ~                                                                 .  ~                  ~  =.           .              ,                             .   </text>
+    <text x="26" y="889.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r75 14s linear infinite">   .  ;"                                                                 , :  .    '         "*  ,                       '  ;     .                            </text>
+    <text x="26" y="900.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r76 14s linear infinite">   .  ":                                    ,                          ' :  ; ':          .  ,  ='                          ;     .      .           .         </text>
+    <text x="26" y="911.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r77 14s linear infinite">   .                               ":;::;;:                            '    : .:             ;  +                          ~                         .  .     .</text>
+    <text x="26" y="922.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r78 14s linear infinite">   .                              .,       "~                          .    '.               =  ;         .                                                  - </text>
+    <text x="26" y="933.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r79 14s linear infinite">   .                                                                   .     "               =  "                                        .             .     ' </text>
+    <text x="26" y="944.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r80 14s linear infinite">   .    ~                         ~=@%~ *#%~ .                         .           '         ;  "        '    .         ..                             "    '' </text>
+    <text x="26" y="955.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r81 14s linear infinite">   .    "                        ~    :-    ~    "                     .           '.       ;,  '                    .  .         .  .                 :    '  </text>
+    <text x="26" y="966.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r82 14s linear infinite">   .    ':                       *    :+    ~     .                    .         .          =  *                       .                               :       </text>
+    <text x="26" y="977.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r83 14s linear infinite">   .    .~                      ',   :='    ~                          .  .    .           :: =-         .            .                                :       </text>
+    <text x="26" y="988.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r84 14s linear infinite">   .     ""                     .;         ~       +"                  .   .       .       ~  -                       ,               .               '-       </text>
+    <text x="26" y="999.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r85 14s linear infinite">   .     .~ .                    *        :=        :  .               .        ;    '    =  =                                                        ::     : </text>
+    <text x="26" y="1010.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r86 14s linear infinite">   .  "   ~.                     .=     "@;.         ~                 .        ,        -  +;           '          :                                 ,,    "  </text>
+    <text x="26" y="1021.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r87 14s linear infinite">   .      ..               ;.",:+:===*%++;. ,',".    .:                .        ~  '     ~  ;                                                         :, .     </text>
+    <text x="26" y="1032.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r88 14s linear infinite">   .  ".                  '~    ' ,    .   ~    =.    ":               .     .  ~ .,,   =  #                                                          :, :     </text>
+    <text x="26" y="1043.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r89 14s linear infinite">   .' ;'    :              +%                    ,     ."              .          ,.   :  *:                      ;                  .                ,,    "  </text>
+    <text x="26" y="1054.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r90 14s linear infinite">   . :  .,  :,             ~  %                  ,      :,             .      "       '"  -                   .                           .           ::  ",   </text>
+    <text x="26" y="1065.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r91 14s linear infinite">   .    ".: .             ,~:     :       :  :# +.       :,            .      .   ,   ~: =                    . .                                     ""       </text>
+    <text x="26" y="1076.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r92 14s linear infinite">   . ,.    .,'            +                     :         ;'  .        .           . ;=  +                      ,                        .             .,      </text>
+    <text x="26" y="1087.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r93 14s linear infinite">   . ' ,    ..,    '      ~:  =" - - : *; ., '  -          ;.          .           ' *  +,                                                              .      </text>
+    <text x="26" y="1098.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r94 14s linear infinite">                   '              .        ".;~:            ,                       "-   '                    .                                                </text>
+  </g>
+  <g id="frameB" style="animation:frameB 14s linear infinite">
+    <text x="26" y="64.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r0 14s linear infinite">                                                                                                                                                               </text>
+    <text x="26" y="75.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r1 14s linear infinite">                                                                ,;                   -  : -                                                                    </text>
+    <text x="26" y="86.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r2 14s linear infinite">   ,                                                          *-      ~     #   =~  -       #+-~,                                                              </text>
+    <text x="26" y="97.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r3 14s linear infinite">   ,                                                        -=           - -  #=  +:##  ;      -=-                                                             </text>
+    <text x="26" y="108.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r4 14s linear infinite">   ,                                                      -+%      +*:  - %; ;  -    :@  ;::     ~%-:                                                          </text>
+    <text x="26" y="119.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r5 14s linear infinite">   ,                                                     =+     %+=#  ,-  :     #     ~~      +     #~                                                         </text>
+    <text x="26" y="130.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r6 14s linear infinite">   ,                                                   -#,  ~;+~,;   = -+ =    + -#:   ~ -    :=      %-                                                       </text>
+    <text x="26" y="141.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r7 14s linear infinite">   ,                                                  =#    ;~;          =,  =    ~      =    , -      #=,                                                     </text>
+    <text x="26" y="152.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r8 14s linear infinite">   ,                                                ;*:   -~    - :~,~       :     ; --   @:            ,%+                                                    </text>
+    <text x="26" y="163.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r9 14s linear infinite">   ,                                               :=     ,       =~ ,#-+~~-  ,#       +   #=       ,     @=                                                   </text>
+    <text x="26" y="174.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r10 14s linear infinite">   ,                                              +%   ~ -  ;    =  -: ~ ,- ~+           +  @~         *   +-                                                  </text>
+    <text x="26" y="185.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r11 14s linear infinite">   ,                                             ,#   :,@   ~ #   ~    -  ,:-#-  :   ;+-,    -@             *+                                                 </text>
+    <text x="26" y="196.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r12 14s linear infinite">   ,                                             %    :    - +, +-  ,,     -=  ~-=:,   ,~: =   == #@-        #-                                                </text>
+    <text x="26" y="207.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r13 14s linear infinite">   ,                                            -#   ,=    = :  :  ~          -  ;=%-%#; #-*:; ;: ~=#: @      %,                                               </text>
+    <text x="26" y="218.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r14 14s linear infinite">   ,                                            @~  ,*   -    :  *   ,                         #  + @; ,       %                                               </text>
+    <text x="26" y="229.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r15 14s linear infinite">   ,                                           :=      + ;-,:    ;                                   ~@;       ;,                                              </text>
+    <text x="26" y="240.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r16 14s linear infinite">   ,                                           *        *##                                            +=+      =                                              </text>
+    <text x="26" y="251.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r17 14s linear infinite">   ,                                           =   #  +=+                                               # -     # ,                                            </text>
+    <text x="26" y="262.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r18 14s linear infinite">   ,                                           =   #  -@                                                   =    =                                              </text>
+    <text x="26" y="273.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r19 14s linear infinite">   ,                                           ~   : ;-                                                         :~                                             </text>
+    <text x="26" y="284.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r20 14s linear infinite">   ,                                           +   ~  =                                                      ,   =                                             </text>
+    <text x="26" y="295.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r21 14s linear infinite">   ,                                           =      -                                                   ,     ;+                                             </text>
+    <text x="26" y="306.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r22 14s linear infinite">   ,                                           #  ;  ,,                                                   =:  :  =                                             </text>
+    <text x="26" y="317.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r23 14s linear infinite">   ,                                           %    ,=:                                                    #- = ~+                                             </text>
+    <text x="26" y="328.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r24 14s linear infinite">   ,                                           %,    =                                                      = +  ~                                             </text>
+    <text x="26" y="339.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r25 14s linear infinite">   ,                                           -= =  %                                                          = ,                                            </text>
+    <text x="26" y="350.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r26 14s linear infinite">   ,                                            #   ;+                                 ~~#@@@+:;            :; :@~                                             </text>
+    <text x="26" y="361.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r27 14s linear infinite">   ,                                            --  %     =~,  +=@@@@#--                       ;             ==;  *                                            </text>
+    <text x="26" y="372.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r28 14s linear infinite">   ,                                            +@  %     : ,                                                -#   #-                                           </text>
+    <text x="26" y="383.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r29 14s linear infinite">   ,                                           #=                                                             ,    ~                                           </text>
+    <text x="26" y="394.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r30 14s linear infinite">   ,                                           #                                         ,;,    ;--;          -    #                                           </text>
+    <text x="26" y="405.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r31 14s linear infinite">                                               ~   ;        ,   -+     +               @   @=,                ~    -:                                          </text>
+    <text x="26" y="416.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r32 14s linear infinite">   ,                                           ~          ,       ~#                     *                    =     -                                          </text>
+    <text x="26" y="427.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r33 14s linear infinite">   ,                                           -                                                                   ;;                                          </text>
+    <text x="26" y="438.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r34 14s linear infinite">   ,                                           #                                                               ,   @:                                          </text>
+    <text x="26" y="449.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r35 14s linear infinite">   ,                                           ==                                                                  =                                           </text>
+    <text x="26" y="460.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r36 14s linear infinite">   ,                                            #,                                                                 -                                           </text>
+    <text x="26" y="471.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r37 14s linear infinite">   ,                                            ~=                                                            ~    +                                           </text>
+    <text x="26" y="482.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r38 14s linear infinite">   ,                                             :                                                            @    +                                           </text>
+    <text x="26" y="493.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r39 14s linear infinite">   ,                                             #  ;-                                                        =   *-                                           </text>
+    <text x="26" y="504.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r40 14s linear infinite">   ,                                             @  ,#                                                      :+    %                                            </text>
+    <text x="26" y="515.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r41 14s linear infinite">   ,                                             -=  -=                              -                      ,   @%                                             </text>
+    <text x="26" y="526.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r42 14s linear infinite">   ,                                              *@  *                          :                             ;+                                              </text>
+    <text x="26" y="537.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r43 14s linear infinite">   ,                                               #~  -                   @    ;   @                      :   =                                               </text>
+    <text x="26" y="548.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r44 14s linear infinite">   ,                                                %                    @#           -*                   :*  *                                               </text>
+    <text x="26" y="559.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r45 14s linear infinite">   ,                                                -  :              ,#@               ,%                 ,  :-                                               </text>
+    <text x="26" y="570.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r46 14s linear infinite">   ,                                                ,#  =:           *;+             -   , ,               -                                                   </text>
+    <text x="26" y="581.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r47 14s linear infinite">   ,        ,      ,                                 -*             %-    -  #  -       ;;*,#                #=      ,                                         </text>
+    <text x="26" y="592.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r48 14s linear infinite">   ,                                                  =            *%,                      @                +                                                 </text>
+    <text x="26" y="603.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r49 14s linear infinite">   ,                                                  -,  %        -#                      ~ #          +   *;                                                 </text>
+    <text x="26" y="614.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r50 14s linear infinite">   ,                                                   %   -                  +~,:-:                   =   %-                                                  </text>
+    <text x="26" y="625.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r51 14s linear infinite">   ,                                                   :%~  ~                =-~%=~-                  *; ~  -#:                                                </text>
+    <text x="26" y="636.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r52 14s linear infinite">   ,                                                    :@;  ~                                       *@  %    #-                                               </text>
+    <text x="26" y="647.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r53 14s linear infinite">   ,                                                   :*     %                                    ~=    %,     =-                                             </text>
+    <text x="26" y="658.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r54 14s linear infinite">   ,                                                  =@    #  @@                                 *%    ,%:       #;+,                                         </text>
+    <text x="26" y="669.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r55 14s linear infinite">   ,                                               ~+;:     @= - +                             =---     ++           +---+~ ,                                  </text>
+    <text x="26" y="680.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r56 14s linear infinite">   ,                                          ;-- ,~    ~  :;=  ~ @@%                :       +- *,  ~   -;-               -;:=+,;                              </text>
+    <text x="26" y="691.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r57 14s linear infinite">   ,                                       ~-*,    ,   @   = +@    = =+#  ;          *   -~=;#::,       %;            %%,       :#-;--;                        </text>
+    <text x="26" y="702.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r58 14s linear infinite">   ,                                     +:-     -%  ,%:   ~  @  =   +  ,:-=~ :~  ,,   #+;;+;~; -       #              %%-            *::-=, ,,                </text>
+    <text x="26" y="713.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r59 14s linear infinite">   ,                                 ;=%      :~;-   --       -@  -   =*+-~~+: -: +=   :~  *#,         ,*               %-;        ~       :   ;##:;-;         </text>
+    <text x="26" y="724.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r60 14s linear infinite">   ,                             ;-,*      #*  ,,  -           =#  ,     := ;#=#, %-=#~ - -,           @+                #  ,        :               ,#:;+~    </text>
+    <text x="26" y="735.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r61 14s linear infinite">   ,                        ,:*~,@      ,==                     @  @        ;:         ,               @:                ,;   :                           #=-+~</text>
+    <text x="26" y="746.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r62 14s linear infinite">   ,               ,   ,;:-#          -##:             :  ,     ~@  #                                  @ - ,              -=   ,         ;:                    </text>
+    <text x="26" y="757.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r63 14s linear infinite">   ,                 --+@           ,#=,                       ; =@  ;                              =  -                   +                                   </text>
+    <text x="26" y="768.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r64 14s linear infinite">   ,             -*;-;       ;     -+                            ,@  =                              % --                    ,   ,                              </text>
+    <text x="26" y="779.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r65 14s linear infinite">   ,        :;-%,                 ~:                              :@  =                               +,                                                       </text>
+    <text x="26" y="790.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r66 14s linear infinite">   ,     ~+-@;        :                                   ~        #- =~                           ;  %       ;              :                                 </text>
+    <text x="26" y="801.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r67 14s linear infinite">      ~#:-                  ,               ,             ~         @  *                           =  =           , -;  :+%%+,                                 </text>
+    <text x="26" y="812.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r68 14s linear infinite">  ~-==           ,      ,                   ~++#~                   ;#                            @  =   ,          -%;           ,                            </text>
+    <text x="26" y="823.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r69 14s linear infinite"> +        ;-,      ,                          ;=-+=%=-;              #- -                        ;- *~           ~#                ,          , :              </text>
+    <text x="26" y="834.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r70 14s linear infinite">     :  --+                                        ::                ,@  @#~-                    =  #     ,               ~               ,                    </text>
+    <text x="26" y="845.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r71 14s linear infinite">    -       ,                                                         ,@  *,;=*#=        =*=#-, @  @,    ,           ,     *-                                  </text>
+    <text x="26" y="856.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r72 14s linear infinite">  ,,  :                                                                #  #~   ,--=#==#*+=+  ,,@, #=                                            ,      :       </text>
+    <text x="26" y="867.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r73 14s linear infinite">   , :,                                                                ,@  -              ;    *  @    :                 :    ,                           -    </text>
+    <text x="26" y="878.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r74 14s linear infinite">   ,  =                                                                 ,  =                  =  %,           ,              ~                             ,   </text>
+    <text x="26" y="889.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r75 14s linear infinite">   ,  +;                                                                 ~ -  ,    :         ;@  ~                       :  +     ,                            </text>
+    <text x="26" y="900.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r76 14s linear infinite">   ,  ;-                                    ~                          : -  + :-          ,  ~  %:                          +     ,      ,           ,         </text>
+    <text x="26" y="911.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r77 14s linear infinite">   ,                               ;-+--++-                            :    - ,-             +  #                          =                         ,  ,     ,</text>
+    <text x="26" y="922.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r78 14s linear infinite">   ,                              ,~       ;=                          ,    :,               %  +         ,                                                  * </text>
+    <text x="26" y="933.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r79 14s linear infinite">   ,                                                                   ,     ;               %  ;                                        ,             ,     : </text>
+    <text x="26" y="944.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r80 14s linear infinite">   ,    =                         =%@@= @@@= ,                         ,           :         +  ;        :    ,         ,,                             ;    :: </text>
+    <text x="26" y="955.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r81 14s linear infinite">   ,    ;                        =    -*    =    ;                     ,           :,       +~  :                    ,  ,         ,  ,                 -    :  </text>
+    <text x="26" y="966.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r82 14s linear infinite">   ,    :-                       @    -#    =     ,                    ,         ,          %  @                       ,                               -       </text>
+    <text x="26" y="977.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r83 14s linear infinite">   ,    ,=                      :~   -%:    =                          ,  ,    ,           -- %*         ,            ,                                -       </text>
+    <text x="26" y="988.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r84 14s linear infinite">   ,     ;;                     ,+         =       #;                  ,   ,       ,       =  *                       ~               ,               :*       </text>
+    <text x="26" y="999.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r85 14s linear infinite">   ,     ,= ,                    @        -%        -  ,               ,        +    :    %  %                                                        --     - </text>
+    <text x="26" y="1010.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r86 14s linear infinite">   ,  ;   =,                     ,%     ;@+,         =                 ,        ~        *  #+           :          -                                 ~~    ;  </text>
+    <text x="26" y="1021.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r87 14s linear infinite">   ,      ,,               +,;~-#-%%%@@##+, ~:~;,    ,-                ,        =  :     =  +                                                         -~ ,     </text>
+    <text x="26" y="1032.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r88 14s linear infinite">   ,  ;,                  :=    : ~    ,   =    %,    ;-               ,     ,  = ,~~   %  @                                                          -~ -     </text>
+    <text x="26" y="1043.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r89 14s linear infinite">   ,: +:    -              #@                    ~     ,;              ,          ~,   -  @-                      +                  ,                ~~    ;  </text>
+    <text x="26" y="1054.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r90 14s linear infinite">   , -  ,~  -~             =  @                  ~      -~             ,      ;       :;  *                   ,                           ,           --  ;~   </text>
+    <text x="26" y="1065.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r91 14s linear infinite">   ,    ;,- ,             ~=-     -       -  -@ #,       -~            ,      ,   ~   =- %                    , ,                                     ;;       </text>
+    <text x="26" y="1076.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r92 14s linear infinite">   , ~,    ,~:            #                     -         +:  ,        ,           , +%  #                      ~                        ,             ,~      </text>
+    <text x="26" y="1087.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r93 14s linear infinite">   , : ~    ,,~    :      =-  %; * * - @+ ,~ :  *          +,          ,           : @  #~                                                              ,      </text>
+    <text x="26" y="1098.69" textLength="1049.40" lengthAdjust="spacingAndGlyphs" style="animation:r94 14s linear infinite">                   :              ,        ;,+=-            ~                       ;*   :                    ,                                                </text>
+  </g>
+  </g>
+
+  <g id="scan" style="animation:scan 14s steps(95) infinite, scanFade 14s linear infinite">
+    <rect x="26" y="56" width="1049.40" height="18.70" fill="#2dd4bf" fill-opacity="0.07"/>
+    <rect x="26" y="56" width="1049.40" height="1.4" fill="#7ff5e4" fill-opacity="0.7"/>
+    <rect x="26" y="56" width="6.6" height="11" fill="#5eead4" fill-opacity="0.95"/>
+  </g>
+
+  <rect x="26" y="56" width="1049.40" height="1045.00" fill="url(#scanlines)"/>
+</svg>

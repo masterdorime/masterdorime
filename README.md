@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./ascii-art%20(8).png" width="40%" alt="Tristan Edgina portrait" />
+  <img src="./ascii-portrait.svg" width="100%" alt="Animated ASCII portrait of Tristan Edgina, printing itself line by line in a dark terminal panel" />
 </p>
 
 ---
