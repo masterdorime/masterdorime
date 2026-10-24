@@ -125,18 +125,16 @@ A local vehicle-counting system for CCTV footage using YOLO detection and vehicl
 
 ---
 
----
 
-## CONTRIBUTION CITY
+<h2 align="center">CONTRIBUTION CITY</h2>
 
-<div align="center">
+<p align="center">
   <img
     src="./profile-3d-contrib/profile-gitblock.svg"
     alt="3D GitHub contribution city"
     width="100%"
   />
-</div>
-
+</p>
 ---
 
 ## CONNECT
