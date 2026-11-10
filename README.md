@@ -119,7 +119,7 @@ A local vehicle-counting system for CCTV footage using YOLO detection and vehicl
 ## STREAK
 
 <p align="center">
-  <img width="60%" alt="Current streak, longest streak and total contributions" src="https://streak-stats.demolab.com/?user=masterdorime&amp;background=080e16&amp;border=2dd4bf&amp;stroke=1f5b57&amp;ring=2dd4bf&amp;fire=22d3ee&amp;currStreakNum=5eead4&amp;sideNums=5eead4&amp;currStreakLabel=7fe7d6&amp;sideLabels=7fe7d6&amp;dates=5a6b7a&amp;excludeDaysLabel=5a6b7a&amp;date_format=j%20M%20Y" />
+ <img width="60%" alt="Current streak, longest streak and total contributions" src="https://streak-stats.demolab.com/?user=masterdorime&amp;background=080e16&amp;border=2dd4bf&amp;stroke=1f5b57&amp;ring=2dd4bf&amp;fire=22d3ee&amp;currStreakNum=5eead4&amp;sideNums=5eead4&amp;currStreakLabel=7fe7d6&amp;sideLabels=7fe7d6&amp;dates=5a6b7a&amp;excludeDaysLabel=5a6b7a&amp;date_format=j%20M%20Y&amp;v=2" />
 </p>
 
 ---
