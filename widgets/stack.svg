@@ -18,13 +18,13 @@
     <circle cx="52" cy="40" r="4.6" fill="#fbbf24" fill-opacity="0.85"/>
     <circle cx="68" cy="40" r="4.6" fill="#34d399" fill-opacity="0.85"/>
   <title id="ttl">Language stack</title>
-  <desc id="dsc">Byte-weighted language mix across public repositories: ShaderLab 25%, TypeScript 23%, JavaScript 13%, C# 12%, Python 11%.</desc>
+  <desc id="dsc">Byte-weighted language mix across public repositories: ShaderLab 26%, TypeScript 23%, JavaScript 13%, Python 12%, C# 11%.</desc>
   <text x="30" y="62" font-size="15" letter-spacing="1.4" fill="#5eead4">LANGUAGE STACK</text>
   <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">&gt; stack.scan</text>
   <text class="lang-name" x="30" y="108" font-size="13.5" fill="#7fe7d6" fill-opacity="0.92">ShaderLab</text>
     <rect x="200" y="101" width="480" height="10" rx="5" fill="#16302f"/>
-    <rect x="200" y="101" width="120" height="10" rx="5" fill="#5eead4"/>
-  <text x="790" y="108" font-size="13.5" text-anchor="end" fill="#5eead4">25%</text>
+    <rect x="200" y="101" width="124.8" height="10" rx="5" fill="#5eead4"/>
+  <text x="790" y="108" font-size="13.5" text-anchor="end" fill="#5eead4">26%</text>
   <text class="lang-name" x="30" y="142" font-size="13.5" fill="#7fe7d6" fill-opacity="0.92">TypeScript</text>
     <rect x="200" y="135" width="480" height="10" rx="5" fill="#16302f"/>
     <rect x="200" y="135" width="110.4" height="10" rx="5" fill="#2dd4bf"/>
@@ -33,11 +33,11 @@
     <rect x="200" y="169" width="480" height="10" rx="5" fill="#16302f"/>
     <rect x="200" y="169" width="62.4" height="10" rx="5" fill="#22d3ee"/>
   <text x="790" y="176" font-size="13.5" text-anchor="end" fill="#5eead4">13%</text>
-  <text class="lang-name" x="30" y="210" font-size="13.5" fill="#7fe7d6" fill-opacity="0.92">C#</text>
+  <text class="lang-name" x="30" y="210" font-size="13.5" fill="#7fe7d6" fill-opacity="0.92">Python</text>
     <rect x="200" y="203" width="480" height="10" rx="5" fill="#16302f"/>
     <rect x="200" y="203" width="57.6" height="10" rx="5" fill="#7fe7d6"/>
   <text x="790" y="210" font-size="13.5" text-anchor="end" fill="#5eead4">12%</text>
-  <text class="lang-name" x="30" y="244" font-size="13.5" fill="#7fe7d6" fill-opacity="0.92">Python</text>
+  <text class="lang-name" x="30" y="244" font-size="13.5" fill="#7fe7d6" fill-opacity="0.92">C#</text>
     <rect x="200" y="237" width="480" height="10" rx="5" fill="#16302f"/>
     <rect x="200" y="237" width="52.8" height="10" rx="5" fill="#a8b6c4"/>
   <text x="790" y="244" font-size="13.5" text-anchor="end" fill="#5eead4">11%</text>
