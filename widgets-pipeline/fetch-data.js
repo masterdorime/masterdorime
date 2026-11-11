@@ -132,11 +132,18 @@ function fetchRaw() {
   ]).filter((r) => r.name !== LOGIN);
 
   // Languages are per-repo, so this is one call per repo. Attach them.
+  //
+  // A failure here is NOT swallowed. Dropping one repo's bytes would quietly
+  // shift the whole language mix - and that snapshot would then be committed
+  // looking perfectly healthy. Failing loudly keeps the previous snapshot, which
+  // the caller's temp-then-rename write guarantees is still intact.
   for (const r of repos) {
     try {
       r.languages = gh(["api", `repos/${LOGIN}/${r.name}/languages`]);
-    } catch {
-      r.languages = {};
+    } catch (err) {
+      throw new Error(
+        `language fetch failed for ${r.name}; refusing to write a partial snapshot: ${err.message}`
+      );
     }
   }
 
@@ -180,7 +187,11 @@ function fetchAvatar(profile) {
       maxBuffer: 32 * 1024 * 1024,
     });
     if (!buf || buf.length < 100) return false;
-    fs.writeFileSync(AVATAR_PATH, buf);
+    // Temp then rename, same as the snapshot: an interrupt must not leave a
+    // truncated PNG behind, because the hero embeds whatever is on disk.
+    const tmp = AVATAR_PATH + ".tmp";
+    fs.writeFileSync(tmp, buf);
+    fs.renameSync(tmp, AVATAR_PATH);
     return true;
   } catch {
     return false;

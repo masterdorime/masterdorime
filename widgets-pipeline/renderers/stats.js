@@ -18,6 +18,11 @@ const COL_W = (WIDTH - PAD * 2) / 4;
 
 const n = (v) => Number(v || 0).toLocaleString("en-US");
 
+// "1 contribution" / "2 contributions". Small thing, but "1 contributions" in a
+// panel that is otherwise carefully worded reads as machine output.
+const plural = (count, one, many) =>
+  `${n(count)} ${Number(count) === 1 ? one : many}`;
+
 function render(snapshot) {
   const p = snapshot.profile || {};
   const c = snapshot.contributions || {};
@@ -45,9 +50,10 @@ function render(snapshot) {
   const height = 214;
 
   const desc =
-    `Live GitHub figures: ${stars} stars across ${n(p.public_repos)} public ` +
-    `repositories, ${n(c.total)} contributions in the last year, ` +
-    `${n(p.followers)} ${p.followers === 1 ? "follower" : "followers"}.`;
+    `Live GitHub figures: ${plural(stars, "star", "stars")} across ` +
+    `${plural(p.public_repos, "public repository", "public repositories")}, ` +
+    `${plural(c.total, "contribution", "contributions")} in the last year, ` +
+    `${plural(p.followers, "follower", "followers")}.`;
 
   const inner = [
     `  <title id="ttl">Profile signal</title>`,

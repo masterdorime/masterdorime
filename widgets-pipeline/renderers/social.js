@@ -30,7 +30,12 @@ function render(snapshot) {
     ? `<a href="https://github.com/${esc(login)}" target="_blank" rel="noopener">@${esc(login)}</a>`
     : "";
 
-  const blog = link(p.blog, p.blog ? p.blog.replace(/^https?:\/\//, "") : "");
+  const blog = link(
+    p.blog,
+    // Strip the scheme for the label, and the trailing slash too: a visible
+    // "example.com/" reads as a typo rather than a URL.
+    p.blog ? p.blog.replace(/^https?:\/\//, "").replace(/\/$/, "") : ""
+  );
   const twitter = p.twitter_username
     ? link("https://twitter.com/" + p.twitter_username, "@" + p.twitter_username)
     : "";

@@ -1,14 +1,22 @@
 name: Refresh profile widgets
 
-# Regenerates data/profile-data.json and the widgets/*.svg panels, then commits
-# only when something actually changed.
+# Regenerates data/profile-data.json, assets/avatar.png and the widgets/*.svg
+# panels, then commits only when the rendered output actually changed.
 #
-# Independent of profile-3d.yml, which uses its own cron. Both are scheduled so
-# they never run at the same minute, so the two never race on a push.
+# This is now the repository's ONLY scheduled job: it replaced both the GitSkins
+# widgets and the third-party 3D contribution action.
+#
+# Commit cadence, stated honestly: the PROJECTS panel shows relative ages
+# ("updated 4d ago"), which are recomputed against the snapshot date, so the
+# rendered bytes usually DO change once a day even when no repository was pushed.
+# The guard below therefore suppresses duplicate commits within a day (and any
+# run where the output is genuinely identical), rather than promising one commit
+# per data change. Re-rendering without that guard would add a redundant commit
+# on every manual dispatch.
 
 on:
   schedule:
-    # 06:12 UTC daily. Deliberately not 0 18 * * *, which profile-3d.yml owns.
+    # 06:12 UTC daily.
     - cron: "12 6 * * *"
   workflow_dispatch:
 
@@ -16,7 +24,7 @@ permissions:
   contents: write
 
 concurrency:
-  # A slow run must not overlap the next scheduled one and produce a push race.
+  # A slow run must not overlap the next scheduled one and race on a push.
   group: refresh-profile-widgets
   cancel-in-progress: false
 

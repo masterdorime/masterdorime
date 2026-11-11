@@ -42,10 +42,16 @@ function relAge(fromIso, toIso) {
 
 // Clamp to a character budget on a word boundary where possible, so the line
 // never overruns the panel and never cuts mid-word unless it must.
+//
+// Slices by CODE POINT, not UTF-16 code unit: a naive slice() can cut an
+// astral character (emoji, some CJK) in half, leaving a lone surrogate that
+// serialises to a literal U+FFFD in the SVG. Repo descriptions are arbitrary
+// third-party text, so this is reachable with real data.
 function clamp(s, max) {
   const t = String(s || "").trim();
-  if (t.length <= max) return t;
-  const cut = t.slice(0, max);
+  const chars = Array.from(t);
+  if (chars.length <= max) return t;
+  const cut = chars.slice(0, max).join("");
   const sp = cut.lastIndexOf(" ");
   return (sp > max * 0.6 ? cut.slice(0, sp) : cut).trimEnd() + "…";
 }
@@ -54,17 +60,31 @@ function render(snapshot) {
   const repos = snapshot.repos || [];
   const byName = new Map(repos.map((r) => [r.name, r]));
 
-  const entries = PINNED.map((name) => byName.get(name)).filter(Boolean);
+  // Keep a slot for every pin, even one that no longer exists. Filtering missing
+  // repos out would silently shrink the panel - a renamed or made-private repo
+  // would simply disappear with no sign anything was wrong.
+  const entries = PINNED.map((name) => byName.get(name) || {
+    name,
+    description: null,
+    language: null,
+    topics: [],
+    stars: 0,
+    pushedAt: "",
+    homepage: null,
+    missing: true,
+  });
 
   const body = entries
     .map((r, i) => {
       const top = ENTRY_TOP + i * ENTRY_H;
-      const desc = r.description === null || r.description === undefined || r.description === ""
-        ? "-- no description --"
-        : clamp(r.description, MAX_DESC);
+      const desc = r.missing
+        ? "-- repository not found --"
+        : r.description === null || r.description === undefined || r.description === ""
+          ? "-- no description --"
+          : clamp(r.description, MAX_DESC);
       const topics = (r.topics || []).slice(0, MAX_TOPICS);
       const lang = r.language || "--";
-      const age = relAge(r.pushedAt, snapshot.fetchedAt);
+      const age = r.missing ? "unavailable" : relAge(r.pushedAt, snapshot.fetchedAt);
 
       const metaBits = [lang, `${r.stars}★`, age];
       if (r.homepage) metaBits.push(r.homepage.replace(/^https?:\/\//, ""));

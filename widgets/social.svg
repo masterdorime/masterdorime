@@ -22,6 +22,6 @@
   <text x="30" y="62" font-size="15" letter-spacing="1.4" fill="#5eead4">CONNECT</text>
   <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">&gt; whoami --links</text>
   <text x="410" y="124" font-size="26" text-anchor="middle" fill="#22d3ee"><a href="https://github.com/masterdorime" target="_blank" rel="noopener">@masterdorime</a></text>
-  <text x="410" y="172" font-size="13" text-anchor="middle" fill="#7fe7d6" fill-opacity="0.9"><a href="https://tristanedgina-portofolio.vercel.app/" target="_blank" rel="noopener">tristanedgina-portofolio.vercel.app/</a> <tspan fill="#5a6b7a"> · </tspan> <a href="https://twitter.com/tristanerdd" target="_blank" rel="noopener">@tristanerdd</a></text>
+  <text x="410" y="172" font-size="13" text-anchor="middle" fill="#7fe7d6" fill-opacity="0.9"><a href="https://tristanedgina-portofolio.vercel.app/" target="_blank" rel="noopener">tristanedgina-portofolio.vercel.app</a> <tspan fill="#5a6b7a"> · </tspan> <a href="https://twitter.com/tristanerdd" target="_blank" rel="noopener">@tristanerdd</a></text>
   <rect x="1" y="1" width="818" height="204" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
 </svg>

@@ -21,7 +21,6 @@ const COLORS = {
 const PANEL = {
   radius: 16,
   pad: 30,
-  chrome: 34,
   dotY: 40,
   dotR: 4.6,
   dotXs: [36, 52, 68],

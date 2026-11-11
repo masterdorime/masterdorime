@@ -23,8 +23,14 @@ test("shows all four metrics", () => {
 
 test("uses the snapshot numbers, not placeholders", () => {
   const out = render(fixture);
-  assert.ok(out.includes(String(fixture.contributions.total)));
-  assert.ok(out.includes(String(fixture.profile.public_repos)));
+  // Match the metric VALUE node (font-size 34), not any occurrence of the
+  // digits: "12" also appears as font-size="12" in the header, which made an
+  // earlier version of this assertion pass with the metric deleted.
+  const values = [...out.matchAll(/<text[^>]*font-size="34"[^>]*>([^<]*)<\/text>/g)]
+    .map((m) => m[1]);
+  assert.ok(values.includes(String(fixture.contributions.total)), "contributions value missing: " + values);
+  assert.ok(values.includes(String(fixture.profile.public_repos)), "repos value missing: " + values);
+  assert.ok(values.includes(String(fixture.profile.followers)), "followers value missing: " + values);
 });
 
 test("renders zero honestly rather than blanking", () => {

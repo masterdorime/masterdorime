@@ -2,11 +2,14 @@
 //
 // Pure: same snapshot in, byte-identical SVG out. No clock, no randomness.
 //
-// Frame only. The 3D geometry is generated separately by profile-3d.yml into
-// profile-3d-contrib/profile-gitblock.svg and stays untouched; this panel sits
-// directly above that image and supplies the labels and totals, so the two
-// read as one block. It deliberately contains no <image> reference and no
+// Frame only. The 3D geometry is drawn by city3d.js into widgets/city-3d.svg and
+// placed directly below this panel; this supplies the labels and totals, so the
+// two read as one block. It deliberately contains no <image> reference and no
 // geometry of its own — the test suite pins that.
+//
+// Both panels read the same snapshot, so their numbers cannot drift apart. That
+// was the defect that prompted this whole rebuild: a frame saying one total
+// above an image saying another.
 
 const { COLORS, PANEL, WIDTH, esc, panel } = require("../lib/theme.js");
 
@@ -23,17 +26,17 @@ function render(snapshot) {
 
   // Small figures on one line, separated only when present.
   const subs = [
-    `${n(c.activeDays)} active days`,
+    `${n(c.activeDays)} ${Number(c.activeDays) === 1 ? "active day" : "active days"}`,
     `Busiest day: ${n(c.busiestDay)}`,
   ].join("  ·  ");
 
   const height = 214;
 
-  // Scope label matters: the 3D city rendered below this frame is produced by
-  // a separate action that counts by its own rule and window, and the two
-  // totals do NOT match (530 here vs 396 there). Saying "all activity" makes
-  // the frame self-describing, so a viewer comparing the two numbers sees two
-  // deliberately different measures rather than a contradiction.
+  // "ALL ACTIVITY" is the scope label. It is accurate: this total comes from the
+  // GraphQL contribution calendar for the authenticated owner, and it is the
+  // same figure the panels below show. It previously had to disambiguate from a
+  // third-party city that counted differently; that city is gone, but the label
+  // still tells a reader what is being counted, so it stays.
   const desc =
     `All contribution activity in the last year: ${n(c.total)} contributions ` +
     `across ${n(c.activeDays)} active days, busiest day ${n(c.busiestDay)}.`;

@@ -3,15 +3,12 @@
 // Pure string builders. No I/O, no clock, no randomness — a renderer given the
 // same input must emit byte-identical output so the daily Action can diff it.
 
-const { COLORS } = require("./theme.js");
+const { COLORS, esc } = require("./theme.js");
 
-const esc = (s) =>
-  String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
+// esc() lives in theme.js because panel() needs it too. Re-exported here so
+// callers have one import for things that draw.
+// (There used to be a second copy in this file; two escapers is a bug waiting
+// to happen, since only one of them would get fixed.)
 
 // bar(x, y, w, pct, color) -> a track rect plus a value rect.
 // pct is clamped to 0..100. Value width is (w * pct / 100), rounded to 2dp so

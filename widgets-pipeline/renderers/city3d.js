@@ -25,6 +25,15 @@ const ROWS = 7;
 const BASE_STEP = 20;
 const ROW_RATIO = 0.5775; // 11.55 / 20, preserved from the original asset
 
+// Exact horizontal reach of one cube, in units, derived from the face transforms
+// rather than guessed. The top face is skewY(-30) skewX(40.89) scale(1 1.15)
+// applied right-to-left, so a point (u,v) lands at x = u + 1.15v*tan(40.89).
+// A cube's left edge is its translate x; its right edge is that reach.
+const TOP_REACH = iso.TOP_H * 1.15 * Math.tan((40.89 * Math.PI) / 180);
+const CUBE_W = iso.UNIT + TOP_REACH; // ~35.9 units
+
+const LABEL_BAND = 26;
+
 
 const n = (v) => Number(v || 0).toLocaleString("en-US");
 
@@ -54,13 +63,14 @@ function layout(days) {
   const maxCol = Math.max(...cells.map((c) => c.col));
   const cols = maxCol - minCol + 1;
 
-  // Horizontal extent of the ribbon is (cols - 1) steps for the week axis plus
-  // (ROWS - 1) for the day axis, since days step the opposite way, PLUS one cube
-  // footprint. Solve for the largest step that fits.
+  // Horizontal extent of the ribbon: (cols-1) steps along the week axis plus
+  // (ROWS-1) steps back along the day axis, plus one cube's reach. Solving this
+  // exactly — rather than estimating a footprint — is what keeps the block
+  // centred: a cube's left edge is its translate x, but its skewed top face
+  // reaches well past one step to the right.
   const avail = WIDTH - PAD * 2;
-  const spans = cols - 1 + (ROWS - 1) * (BASE_STEP / BASE_STEP);
-  const cubeFootprintInSteps = iso.UNIT / BASE_STEP; // 18/20 of a step
-  const step = Math.min(BASE_STEP, avail / (spans + cubeFootprintInSteps));
+  const spans = cols - 1 + (ROWS - 1);
+  const step = Math.min(BASE_STEP, avail / (spans + CUBE_W / BASE_STEP));
   const scale = step / BASE_STEP;
 
   return { cells, step, scale, minCol, cols, origin };
@@ -76,9 +86,10 @@ function render(snapshot) {
   const scale = lay.scale || 1;
   const rowStep = step * ROW_RATIO;
 
-  // Place the ribbon: the day axis steps left, so offset by the widest negative
-  // excursion to keep everything inside the padding.
-  const x0 = PAD + (ROWS - 1) * step + (iso.UNIT * scale) / 2;
+  // Place the ribbon so its leftmost cube starts exactly at the padding. The
+  // width was solved to that same budget, so the right edge lands on the
+  // opposite padding and the block is centred without any fudge factor.
+  const x0 = PAD + (ROWS - 1) * step;
   const gridTop = HEAD_Y + 40;
 
   const cubes = lay.cells
@@ -104,9 +115,9 @@ function render(snapshot) {
   const span = first && last ? `${first} → ${last}` : "no data";
 
   const desc =
-    `Contribution city: ${n(total)} contributions in the last year across ` +
-    `${n(c.activeDays)} active days, busiest day ${n(c.busiestDay)}. ` +
-    `Each building is one day; taller means more contributions.`;
+    `Contribution city: ${n(total)} ${Number(total) === 1 ? "contribution" : "contributions"} ` +
+    `in the last year across ${n(c.activeDays)} ${Number(c.activeDays) === 1 ? "active day" : "active days"}, ` +
+    `busiest day ${n(c.busiestDay)}. Each building is one day; taller means more contributions.`;
 
   const inner = [
     `  <title id="ttl">Contribution city, one year</title>`,

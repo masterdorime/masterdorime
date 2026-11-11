@@ -47,18 +47,26 @@ function buildAll(snapshot) {
 
 function main() {
   const snapshot = require("../data/profile-data.json");
-  fs.mkdirSync(OUT_DIR, { recursive: true });
   const built = buildAll(snapshot);
-  let missing = [];
+
+  // Collect stubs BEFORE writing anything. Writing first and exiting non-zero
+  // after would leave placeholder SVGs in the tree that look like real output
+  // to the next command that reads them.
+  const stubs = Object.entries(built)
+    .filter(([, svg]) => /not yet implemented/.test(svg))
+    .map(([name]) => name);
+
+  if (stubs.length) {
+    console.error(`refusing to write: ${stubs.length} widget(s) are still stubs: ${stubs.join(", ")}`);
+    process.exitCode = 1;
+    return;
+  }
+
+  fs.mkdirSync(OUT_DIR, { recursive: true });
   for (const [name, svg] of Object.entries(built)) {
-    if (/not yet implemented/.test(svg)) missing.push(name);
     fs.writeFileSync(path.join(OUT_DIR, name + ".svg"), svg, "utf8");
   }
-  console.error(
-    `wrote ${Object.keys(built).length} widgets to ${OUT_DIR}` +
-      (missing.length ? ` (STUBS: ${missing.join(", ")})` : "")
-  );
-  if (missing.length) process.exitCode = 1;
+  console.error(`wrote ${Object.keys(built).length} widgets to ${OUT_DIR}`);
 }
 
 const OUT_DIR = path.join(__dirname, "..", "widgets");
