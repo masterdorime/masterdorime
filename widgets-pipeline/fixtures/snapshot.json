@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-11-11T12:00:00.000Z",
+  "profile": {
+    "login": "masterdorime",
+    "name": null,
+    "bio": "masih belajar",
+    "blog": "https://tristanedgina-portofolio.vercel.app/",
+    "twitter_username": "tristanerdd",
+    "followers": 1,
+    "following": 2,
+    "public_repos": 12,
+    "avatar_url": "https://avatars.githubusercontent.com/u/319055609?v=4"
+  },
+  "contributions": {
+    "total": 530,
+    "activeDays": 58,
+    "busiestDay": 50
+  },
+  "languages": [
+    {
+      "name": "ShaderLab",
+      "bytes": 1284724,
+      "pct": 25
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 1149866,
+      "pct": 23
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 669758,
+      "pct": 13
+    },
+    {
+      "name": "C#",
+      "bytes": 623946,
+      "pct": 12
+    },
+    {
+      "name": "Python",
+      "bytes": 579766,
+      "pct": 11
+    },
+    {
+      "name": "Rust",
+      "bytes": 370316,
+      "pct": 7
+    },
+    {
+      "name": "CSS",
+      "bytes": 194659,
+      "pct": 4
+    },
+    {
+      "name": "GDScript",
+      "bytes": 170916,
+      "pct": 3
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 31497,
+      "pct": 1
+    },
+    {
+      "name": "HLSL",
+      "bytes": 18658,
+      "pct": 0
+    },
+    {
+      "name": "HTML",
+      "bytes": 4875,
+      "pct": 0
+    },
+    {
+      "name": "Inno Setup",
+      "bytes": 3180,
+      "pct": 0
+    },
+    {
+      "name": "Shell",
+      "bytes": 2542,
+      "pct": 0
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 2325,
+      "pct": 0
+    },
+    {
+      "name": "GDShader",
+      "bytes": 1745,
+      "pct": 0
+    }
+  ],
+  "repos": [
+    {
+      "name": "Tristan-Edgina-SG-GAMEDEV.-2026-10-20_19-54-27",
+      "description": "bikin game woi",
+      "language": "C#",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-11-11T16:09:29Z",
+      "homepage": null,
+      "languages": {
+        "C#": 79010
+      }
+    },
+    {
+      "name": "hobyd-hackathon",
+      "description": null,
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-11-08T12:54:35Z",
+      "homepage": "https://hobyd-hackathon.vercel.app",
+      "languages": {
+        "TypeScript": 224549,
+        "CSS": 25809,
+        "PLpgSQL": 17365,
+        "JavaScript": 465
+      }
+    },
+    {
+      "name": "opendump-v2",
+      "description": "opendump v2 - Rust core for the Windows disk audit tool. Pre-alpha: the classifier is ported and tested; scanner, executor and Tauri shell are next.",
+      "language": "Rust",
+      "topics": [
+        "disk-cleanup",
+        "pre-alpha",
+        "rust",
+        "tauri",
+        "windows"
+      ],
+      "stars": 0,
+      "pushedAt": "2026-11-06T16:04:32Z",
+      "homepage": null,
+      "languages": {
+        "Rust": 370316,
+        "Inno Setup": 3180,
+        "PowerShell": 591
+      }
+    },
+    {
+      "name": "opendump",
+      "description": "Windows disk audit that classifies what is safe to delete, quarantines before it purges, and never deletes without an explicit confirmation.",
+      "language": "TypeScript",
+      "topics": [
+        "disk-cleanup",
+        "disk-space",
+        "electron",
+        "typescript",
+        "windows"
+      ],
+      "stars": 0,
+      "pushedAt": "2026-11-06T15:57:47Z",
+      "homepage": null,
+      "languages": {
+        "TypeScript": 215570,
+        "CSS": 29779,
+        "HTML": 525
+      }
+    },
+    {
+      "name": ".github-workflows-profile-3d.yml",
+      "description": null,
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-10-24T12:12:21Z",
+      "homepage": null,
+      "languages": {}
+    },
+    {
+      "name": "Flying-Fih-Remaster",
+      "description": "Browser-based 3D endless runner built on timing-based momentum, flight progression and procedural gameplay, with adaptive music. JavaScript · Three.js · Web Audio",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-10-23T17:15:04Z",
+      "homepage": null,
+      "languages": {
+        "JavaScript": 626873,
+        "HTML": 948
+      }
+    },
+    {
+      "name": "Tristan-Edgina-SG-GAMEDEV.",
+      "description": null,
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-10-20T12:22:14Z",
+      "homepage": null,
+      "languages": {}
+    },
+    {
+      "name": "FLYING-FIH-GAME",
+      "description": "Unity / ShaderLab prototype that became the browser remaster, Flying Fish Momentum.",
+      "language": "ShaderLab",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-10-09T11:40:40Z",
+      "homepage": null,
+      "languages": {
+        "ShaderLab": 1284724,
+        "C#": 544936,
+        "HLSL": 18658
+      }
+    },
+    {
+      "name": "hobyd-prototype",
+      "description": "Mobile-first live auction marketplace for collectors: real-time auctions, live video, chat, bidding and checkout. First market is Pokémon TCG. Next.js · Supabase · LiveKit",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-10-01T14:15:05Z",
+      "homepage": "https://hobyd-prototype.vercel.app",
+      "languages": {
+        "TypeScript": 246907,
+        "Python": 16667,
+        "PLpgSQL": 14132,
+        "CSS": 4615,
+        "JavaScript": 559
+      }
+    },
+    {
+      "name": "portofolio-websites",
+      "description": "Interactive engineering portfolio — physical-system projects, experimental interfaces, 3D graphics and motion. Next.js · React · TypeScript · Three.js",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-10-01T14:03:15Z",
+      "homepage": "https://tristan-portfolio-omega.vercel.app",
+      "languages": {
+        "TypeScript": 462840,
+        "CSS": 128039,
+        "JavaScript": 33728,
+        "Shell": 2542,
+        "Python": 361
+      }
+    },
+    {
+      "name": "aim-drill-game-nyahu",
+      "description": "Aim Drill 3D: customizable Godot aim trainer with drills, AI debriefs, ranks and leaderboards. Playable in the browser.",
+      "language": "GDScript",
+      "topics": [
+        "aim-trainer",
+        "fps",
+        "gdscript",
+        "godot",
+        "godot-4",
+        "web-game"
+      ],
+      "stars": 0,
+      "pushedAt": "2026-09-30T12:59:57Z",
+      "homepage": "https://masterdorime.github.io/aim-drill-game-nyahu/",
+      "languages": {
+        "GDScript": 170916,
+        "GDShader": 1745
+      }
+    },
+    {
+      "name": "penghitung-traffic-yolo",
+      "description": "Local vehicle-counting system for CCTV footage using YOLO detection and tracking, with calibrated counting lines, traffic-period reports, a dashboard and CSV export. Python · Computer Vision",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2026-09-27T05:20:31Z",
+      "homepage": null,
+      "languages": {
+        "Python": 562738,
+        "JavaScript": 8133,
+        "CSS": 6417,
+        "HTML": 3402,
+        "PowerShell": 1734
+      }
+    }
+  ]
+}
