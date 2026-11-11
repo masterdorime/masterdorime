@@ -30,10 +30,21 @@ function gh(args) {
   return JSON.parse(out);
 }
 
+// Day granularity, deliberately. A full ISO timestamp would change on every
+// run, so the snapshot would always differ and the workflow's "commit only on
+// change" guard could never fire — producing an empty commit every single day.
+// Relative ages are computed in whole days, so a date is all that is needed,
+// and two runs on the same day then produce byte-identical output.
+const today = () => new Date().toISOString().slice(0, 10);
+
 const round = (n) => Math.round(n);
 
-// Derive the three contribution figures from the calendar.
+// Derive the contribution figures from the calendar.
 // `weeks` is an array of { contributionDays: [{ date, contributionCount }] }.
+//
+// `days` is the flattened series in calendar order. The aggregate figures came
+// first, but the 3D city draws one cube per day, so the series has to be in the
+// snapshot rather than recomputed by a renderer that has no network access.
 function deriveContributions(cal) {
   const days = (cal.weeks || []).flatMap((w) => w.contributionDays || []);
   const counts = days.map((d) => d.contributionCount || 0);
@@ -41,6 +52,7 @@ function deriveContributions(cal) {
     total: cal.totalContributions || 0,
     activeDays: counts.filter((c) => c > 0).length,
     busiestDay: counts.length ? Math.max(...counts) : 0,
+    days: days.map((d) => ({ date: d.date, count: d.contributionCount || 0 })),
   };
 }
 
@@ -83,7 +95,7 @@ function buildSnapshot(raw) {
     .sort((a, b) => String(b.pushedAt).localeCompare(String(a.pushedAt)));
 
   return {
-    fetchedAt: raw.fetchedAt || new Date().toISOString(),
+    fetchedAt: raw.fetchedAt || today(),
     profile: {
       login: p.login || "",
       name: p.name ?? null,
@@ -102,15 +114,21 @@ function buildSnapshot(raw) {
 }
 
 // ---- network layer ----
-
+//
+// Every query below targets the user BY LOGIN, never "the authenticated user".
+// That matters because this runs inside GitHub Actions with GITHUB_TOKEN, where
+// `viewer` and `/user` resolve to the github-actions bot rather than the account
+// owner — which would have silently produced an empty profile and an empty
+// contribution calendar while still exiting 0. Querying by login works with a
+// bot token, a PAT, or a local gh session alike.
 function fetchRaw() {
-  const profile = gh(["api", "user"]);
+  const profile = gh(["api", `users/${LOGIN}`]);
 
   // The profile repo itself is non-fork and would otherwise appear as a
   // project. Keep it out of the repo list; the README is not a project.
   const repos = gh([
     "api",
-    "user/repos?per_page=100&affiliation=owner&sort=pushed",
+    `users/${LOGIN}/repos?per_page=100&sort=pushed&type=owner`,
   ]).filter((r) => r.name !== LOGIN);
 
   // Languages are per-repo, so this is one call per repo. Attach them.
@@ -123,17 +141,17 @@ function fetchRaw() {
   }
 
   const query =
-    "query { viewer { contributionsCollection { contributionCalendar { " +
-    "totalContributions weeks { contributionDays { date contributionCount } } " +
-    "} } } }";
+    `query { user(login: "${LOGIN}") { contributionsCollection { ` +
+    "contributionCalendar { totalContributions " +
+    "weeks { contributionDays { date contributionCount } } } } } }";
   const gql = gh(["api", "graphql", "-f", "query=" + query]);
   const contributions =
-    gql.data && gql.data.viewer && gql.data.viewer.contributionsCollection
-      ? gql.data.viewer.contributionsCollection.contributionCalendar
+    gql.data && gql.data.user && gql.data.user.contributionsCollection
+      ? gql.data.user.contributionsCollection.contributionCalendar
       : {};
 
   return {
-    fetchedAt: new Date().toISOString(),
+    fetchedAt: today(),
     profile,
     repos,
     contributions,

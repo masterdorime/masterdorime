@@ -46,3 +46,25 @@ test("null fields survive as null rather than throwing", () => {
   assert.strictEqual(b.description, null);
   assert.strictEqual(b.homepage, null);
 });
+
+// The 3D city draws one cube per day, so the series and the total must agree.
+// This is the regression guard for the defect that started this work: a frame
+// showing one number above a city showing another.
+test("the day series sums to the reported total", () => {
+  const c = buildSnapshot(raw).contributions;
+  const sum = c.days.reduce((s, d) => s + d.count, 0);
+  assert.strictEqual(sum, c.total, "days sum " + sum + " != total " + c.total);
+});
+
+test("the day series is in calendar order and non-empty", () => {
+  const days = buildSnapshot(raw).contributions.days;
+  assert.ok(days.length > 0);
+  const dates = days.map((d) => d.date);
+  assert.deepStrictEqual([...dates].sort(), dates, "days are not in date order");
+});
+
+test("activeDays and busiestDay agree with the series", () => {
+  const c = buildSnapshot(raw).contributions;
+  assert.strictEqual(c.activeDays, c.days.filter((d) => d.count > 0).length);
+  assert.strictEqual(c.busiestDay, Math.max(...c.days.map((d) => d.count)));
+});

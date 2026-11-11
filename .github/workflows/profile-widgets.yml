@@ -1,0 +1,55 @@
+name: Refresh profile widgets
+
+# Regenerates data/profile-data.json and the widgets/*.svg panels, then commits
+# only when something actually changed.
+#
+# Independent of profile-3d.yml, which uses its own cron. Both are scheduled so
+# they never run at the same minute, so the two never race on a push.
+
+on:
+  schedule:
+    # 06:12 UTC daily. Deliberately not 0 18 * * *, which profile-3d.yml owns.
+    - cron: "12 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # A slow run must not overlap the next scheduled one and produce a push race.
+  group: refresh-profile-widgets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh the data snapshot
+        env:
+          # gh reads GH_TOKEN for both REST and GraphQL.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node widgets-pipeline/fetch-data.js
+
+      - name: Render every widget
+        run: node widgets-pipeline/build-all.js
+
+      - name: Verify the output
+        run: node --test widgets-pipeline/test/*.test.js
+
+      - name: Commit only real changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/profile-data.json widgets assets
+          if git diff --cached --quiet; then
+            echo "No change since the last run; nothing to commit."
+          else
+            git commit -m "Update profile widgets"
+            git push
+          fi
