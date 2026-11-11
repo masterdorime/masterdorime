@@ -17,6 +17,7 @@ const path = require("node:path");
 const { execFileSync } = require("node:child_process");
 
 const OUT_PATH = path.join(__dirname, "..", "data", "profile-data.json");
+const AVATAR_PATH = path.join(__dirname, "..", "assets", "avatar.png");
 const LOGIN = "masterdorime";
 
 // gh JSON helper. Throws on API failure, which is what we want: the caller
@@ -139,9 +140,40 @@ function fetchRaw() {
   };
 }
 
+// The hero embeds the avatar inline as a data URI, so it must be a local file
+// rather than a remote reference. Download it here, where network access
+// already lives. A failure is not fatal: the hero omits the image.
+//
+// Size: the hero draws the avatar in a 104px circle, so 208px is exactly 2x for
+// crisp rendering on a retina display and nothing more. GitHub serves avatars at
+// an arbitrary size via ?s=N, which avoids needing an image library to resize.
+// Without this the source 460x460 comes to ~198KB of base64, more than the whole
+// rest of the widget set.
+const AVATAR_PX = 208;
+
+function fetchAvatar(profile) {
+  const url = profile && profile.avatar_url;
+  if (!url) return false;
+  try {
+    fs.mkdirSync(path.dirname(AVATAR_PATH), { recursive: true });
+    const base = url.split("?")[0];
+    const sized = `${base}?s=${AVATAR_PX}&v=4`;
+    const buf = execFileSync("curl", ["-sSL", "--fail", sized], {
+      maxBuffer: 32 * 1024 * 1024,
+    });
+    if (!buf || buf.length < 100) return false;
+    fs.writeFileSync(AVATAR_PATH, buf);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function main() {
   const raw = fetchRaw();
   const snapshot = buildSnapshot(raw);
+
+  const gotAvatar = fetchAvatar(raw.profile);
 
   // Atomic write: temp file then rename. A crash between the two leaves the
   // previous snapshot intact rather than a truncated one.
@@ -155,7 +187,8 @@ function main() {
     .map((l) => `${l.name} ${l.pct}%`)
     .join(", ");
   console.error(
-    `wrote ${OUT_PATH}: ${snapshot.repos.length} repos, ${snapshot.contributions.total} contributions, ${top}`
+    `wrote ${OUT_PATH}: ${snapshot.repos.length} repos, ${snapshot.contributions.total} contributions, ${top}` +
+      (gotAvatar ? `, avatar ${fs.statSync(AVATAR_PATH).size}b` : ", no avatar")
   );
 }
 

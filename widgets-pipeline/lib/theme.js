@@ -31,15 +31,17 @@ const WIDTH = 820;
 
 const FONT_STACK = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace";
 
-// Identity block, matching the name card exactly. The profile API returns
-// name: null and bio: "masih belajar", which would contradict the name card, so
-// the hero prefers these until real profile fields are set.
+// Identity block, matching the name card exactly. Copied from what
+// ascii-namecard.svg actually renders, NOT from the profile API — the API
+// returns name: null and bio: "masih belajar", which would contradict the name
+// card. The hero prefers real profile fields once they are set, and falls back
+// to these. One source of truth, so the two panels cannot drift.
 const IDENTITY = {
-  name: "TRISTAN EDGINA",
+  name: "Tristan Edgina",
   lines: [
-    "Computer Engineering Student at Telkom University",
-    "AI / Robotics / Embedded Systems / Game Dev",
-    "masih belajar",
+    "Computer Engineering at Telkom University",
+    "AI · Robotics & Embedded · Full-Stack",
+    "Turning ideas into working systems.",
   ],
 };
 
