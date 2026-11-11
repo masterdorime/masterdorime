@@ -5,7 +5,7 @@
 <p align="center"><sub>AI · Robotics · Embedded Systems · Game Dev &nbsp;·&nbsp; <strong>masih belajar</strong></sub></p>
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Tristan Edgina — profile card" />
+  <img src="./widgets/hero.svg" width="100%" alt="Tristan Edgina — profile card" />
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 ## LANGUAGE STACK
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Repository-weighted language stack" />
+  <img src="./widgets/stack.svg" width="100%" alt="Repository-weighted language stack" />
 </p>
 
 ---
@@ -37,7 +37,7 @@
 ## CONTRIBUTION CITY
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/city?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Tristan Edgina contribution city" />
+  <img src="./widgets/city.svg" width="100%" alt="Contribution city totals: contributions, active days and busiest day" />
 </p>
 
 <p align="center"><sub>Every building is a day. Taller means more contributions.</sub></p>
@@ -56,7 +56,7 @@
 ## BY THE NUMBERS
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="100%" alt="Contributions, repositories, stars and followers" />
+  <img src="./widgets/stats.svg" width="100%" alt="Contributions, repositories, stars and followers" />
 </p>
 
 ---
@@ -64,14 +64,31 @@
 ## SELECTED WORK
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4&repos=masterdorime%2Fportofolio-websites%2Cmasterdorime%2Fhobyd-prototype%2Cmasterdorime%2FFlying-Fih-Remaster%2Cmasterdorime%2Faim-drill-game-nyahu" width="100%" alt="Selected repositories" />
+  <img src="./widgets/projects.svg" width="100%" alt="Selected repositories: opendump-v2, hobyd-hackathon, portofolio-websites and Flying-Fih-Remaster" />
 </p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**01 · [Personal Engineering Portfolio](https://github.com/masterdorime/portofolio-websites)**
+**01 · [opendump-v2](https://github.com/masterdorime/opendump-v2)**
+
+The Rust core of a Windows disk audit tool. Pre-alpha: the classifier is ported and tested; scanner, executor and Tauri shell are next.
+
+`Rust` `Tauri` `Windows` `Pre-alpha`
+
+**02 · [HOBYD — Live Auction](https://github.com/masterdorime/hobyd-hackathon)**
+
+A live auction marketplace for collectors: sellers stream, buyers bid in real time. Built for CR Youth 2026 Hackathon with Tim Pekalongan Hemker Community.
+
+`Next.js` `TypeScript` `Supabase` `LiveKit`
+
+[Live Demo →](https://hobyd-hackathon.vercel.app)
+
+</td>
+<td width="50%" valign="top">
+
+**03 · [Personal Engineering Portfolio](https://github.com/masterdorime/portofolio-websites)**
 
 An interactive engineering portfolio: physical-system projects, experimental interfaces, interactive 3D graphics, motion and technical storytelling.
 
@@ -79,36 +96,11 @@ An interactive engineering portfolio: physical-system projects, experimental int
 
 [Live Portfolio →](https://tristan-portfolio-omega.vercel.app/)
 
-**02 · [HOBYD — Live Auction Marketplace](https://github.com/masterdorime/hobyd-prototype)**
-
-A mobile-first marketplace for collectors: real-time auctions, live video, community chat, bidding and checkout. First target market is Pokémon TCG.
-
-`Next.js` `React` `TypeScript` `Supabase` `LiveKit`
-
-[Live Prototype →](https://hobyd-prototype.vercel.app/)
-
-</td>
-<td width="50%" valign="top">
-
-**03 · [Flying Fish Momentum](https://github.com/masterdorime/Flying-Fih-Remaster)**
+**04 · [Flying Fish Momentum](https://github.com/masterdorime/Flying-Fih-Remaster)**
 
 A browser-based 3D endless runner built on timing-based momentum, flight progression and procedural gameplay systems, with adaptive music.
 
 `JavaScript` `Three.js` `Web Audio API`
-
-**04 · [Aim Drill 3D](https://github.com/masterdorime/aim-drill-game-nyahu)**
-
-A browser-playable 3D aim trainer: six training scenarios, customizable drills, performance analysis, scenario ranks and local leaderboards.
-
-`Godot` `GDScript` `Web Export`
-
-[Play Online →](https://masterdorime.github.io/aim-drill-game-nyahu/)
-
-**05 · [Penghitung Traffic YOLO](https://github.com/masterdorime/penghitung-traffic-yolo)**
-
-A local vehicle-counting system for CCTV footage using YOLO detection and vehicle tracking, with calibrated counting lines, traffic-period reports, a dashboard and CSV export.
-
-`Python` `YOLO` `Computer Vision`
 
 </td>
 </tr>
@@ -127,7 +119,7 @@ A local vehicle-counting system for CCTV footage using YOLO detection and vehicl
 ## FIND ME
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=masterdorime&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F319055609%3Fu%3D4bb494291d98ffe044655427781f5c602ff7ed73%26v%3D4" width="60%" alt="GitHub profile" />
+  <img src="./widgets/social.svg" width="60%" alt="GitHub profile and links" />
 </p>
 
 <p align="center">

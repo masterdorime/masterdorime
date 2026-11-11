@@ -1,9 +1,8 @@
 // Runs every renderer and writes widgets/*.svg.
 //
-// Renderers not yet written are stubbed to a minimal valid panel, so this
-// harness is usable from the moment the fixture exists and finishes as later
-// tasks land. A stub is replaced the moment its renderer file appears, so the
-// harness never needs editing again.
+// Renderers that do not exist yet fall back to a minimal valid panel. All six
+// are implemented now, so the fallback only matters if a future renderer is
+// added to NAMES before its file is written.
 
 const fs = require("node:fs");
 const path = require("node:path");
