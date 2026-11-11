@@ -87,8 +87,17 @@ widgets/stack.svg  stats.svg  social.svg  projects.svg  city.svg  hero.svg
 ```
 
 Matching the existing `profile-3d-contrib/` convention of one directory per
-generated group. The deep `.svg` paths are relative to the README, which sits at
-the repository root.
+generated group. The `.svg` paths are relative to the README, which sits at the
+repository root.
+
+**Generator source must be committed.** The existing `portrait-pipeline/` lives
+outside this repository in an untracked parent directory, and `git ls-files` confirms
+no `.js` file is committed here. That works for the portrait because it is generated
+locally and only its asset is published. It does not work for these widgets: the
+daily Action runs on GitHub's runners, which can only read committed files. The
+generators therefore live in a committed `widgets-pipeline/` directory. This is the
+one deliberate departure from the existing convention, chosen because the alternative
+— folding the logic into workflow YAML — would make it untestable in CI.
 
 ## Data layer
 
