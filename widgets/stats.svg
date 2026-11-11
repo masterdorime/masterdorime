@@ -18,16 +18,16 @@
     <circle cx="52" cy="40" r="4.6" fill="#fbbf24" fill-opacity="0.85"/>
     <circle cx="68" cy="40" r="4.6" fill="#34d399" fill-opacity="0.85"/>
   <title id="ttl">Profile signal</title>
-  <desc id="dsc">Live GitHub figures: 0 stars across 12 public repositories, 530 contributions in the last year, 1 follower.</desc>
+  <desc id="dsc">Live GitHub figures: 0 stars across 12 public repositories, 533 contributions in the last year, 2 followers.</desc>
   <text x="30" y="62" font-size="15" letter-spacing="1.4" fill="#5eead4">PROFILE SIGNAL</text>
   <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">&gt; stats.feed</text>
   <text x="125" y="126" font-size="34" text-anchor="middle" fill="#5eead4">0</text>
   <text x="125" y="150" font-size="11.5" letter-spacing="1.2" text-anchor="middle" fill="#a8b6c4" fill-opacity="0.9">STARS</text>
-  <text x="315" y="126" font-size="34" text-anchor="middle" fill="#5eead4">530</text>
+  <text x="315" y="126" font-size="34" text-anchor="middle" fill="#5eead4">533</text>
   <text x="315" y="150" font-size="11.5" letter-spacing="1.2" text-anchor="middle" fill="#a8b6c4" fill-opacity="0.9">CONTRIBUTIONS</text>
   <text x="505" y="126" font-size="34" text-anchor="middle" fill="#5eead4">12</text>
   <text x="505" y="150" font-size="11.5" letter-spacing="1.2" text-anchor="middle" fill="#a8b6c4" fill-opacity="0.9">REPOS</text>
-  <text x="695" y="126" font-size="34" text-anchor="middle" fill="#5eead4">1</text>
+  <text x="695" y="126" font-size="34" text-anchor="middle" fill="#5eead4">2</text>
   <text x="695" y="150" font-size="11.5" letter-spacing="1.2" text-anchor="middle" fill="#a8b6c4" fill-opacity="0.9">FOLLOWERS</text>
   <text x="410" y="184" font-size="11.5" text-anchor="middle" fill="#5a6b7a">Live GitHub stats, self-hosted</text>
   <rect x="1" y="1" width="818" height="212" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
