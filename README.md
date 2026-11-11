@@ -40,16 +40,11 @@
   <img src="./widgets/city.svg" width="100%" alt="Contribution city totals: contributions, active days and busiest day" />
 </p>
 
-<p align="center"><sub>Every building is a day. Taller means more contributions.</sub></p>
-
-<details>
-<summary><sub>Self-hosted view · needs no external service</sub></summary>
-
 <p align="center">
-  <img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" alt="Self-hosted 3D contribution city" />
+  <img src="./widgets/city-3d.svg" width="100%" alt="Self-hosted 3D contribution city: one isometric building per day across the last year, taller for more contributions, in the aurora colour ramp" />
 </p>
 
-</details>
+<p align="center"><sub>Every building is a day. Taller means more contributions.</sub></p>
 
 ---
 

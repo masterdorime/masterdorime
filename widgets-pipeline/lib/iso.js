@@ -35,9 +35,15 @@ const THRESHOLDS = [1, 3, 7, 15]; // count >= threshold[i] -> level i+1
 // Aurora ramp. Each level needs three distinct shades so the cubes keep their
 // 3D lighting; the top is brightest (it catches the light), then left, then
 // right.
+//
+// Level 0 is deliberately NEUTRAL slate rather than a dim teal. Match the
+// original's grey ground: it must read as "the floor of a full year" and not as
+// "a low-activity teal", so 311 quiet days never look like pale data. Level 1 is
+// pulled well clear of the floor so a single contribution is unmistakably a
+// building.
 const RAMP = [
-  { top: "#16302f", left: "#0f2323", right: "#0a1a1a" }, // 0 — ground plane
-  { top: "#1f5b57", left: "#174743", right: "#113634" }, // 1 — low
+  { top: "#243642", left: "#1b2a33", right: "#141f26" }, // 0 — ground plane
+  { top: "#2f8e84", left: "#247067", right: "#1b534d" }, // 1 — low
   { top: "#2dd4bf", left: "#22a396", right: "#1a7d73" }, // 2 — moderate
   { top: "#5eead4", left: "#47b8a7", right: "#358a7e" }, // 3 — high
   { top: "#22d3ee", left: "#1aa5bb", right: "#14788a" }, // 4 — highest
