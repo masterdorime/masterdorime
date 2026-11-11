@@ -137,7 +137,9 @@ test("panel emits a self-contained svg at the fixed width", () => {
   assert.match(out, /<svg[^>]*width="820"/);
   assert.match(out, /viewBox="0 0 820 100"/);
   assert.match(out, /role="img"/);
-  assert.doesNotMatch(out, /<script|on[a-z]+=|javascript:|<foreignObject|https?:\/\//i);
+  assert.doesNotMatch(out, /<script|on[a-z]+\s*=|javascript:|<foreignObject/i);
+  assert.doesNotMatch(out, /(?:href|src)\s*=\s*"(?:https?|//)/i);
+  assert.doesNotMatch(out, /url\(https?:/i);
 });
 
 test("esc escapes the five xml-significant characters", () => {
@@ -429,7 +431,9 @@ const { render } = require("../renderers/stack.js");
 test("renders a self-contained svg at the fixed width", () => {
   const out = render(fixture);
   assert.match(out, /width="820"/);
-  assert.doesNotMatch(out, /<script|on[a-z]+=|javascript:|<foreignObject|https?:\/\//i);
+  assert.doesNotMatch(out, /<script|on[a-z]+\s*=|javascript:|<foreignObject/i);
+  assert.doesNotMatch(out, /(?:href|src)\s*=\s*"(?:https?|//)/i);
+  assert.doesNotMatch(out, /url\(https?:/i);
 });
 
 test("shows at most five languages", () => {
@@ -500,7 +504,9 @@ const { render } = require("../renderers/stats.js");
 test("renders self-contained svg at fixed width", () => {
   const out = render(fixture);
   assert.match(out, /width="820"/);
-  assert.doesNotMatch(out, /<script|on[a-z]+=|javascript:|<foreignObject|https?:\/\//i);
+  assert.doesNotMatch(out, /<script|on[a-z]+\s*=|javascript:|<foreignObject/i);
+  assert.doesNotMatch(out, /(?:href|src)\s*=\s*"(?:https?|//)/i);
+  assert.doesNotMatch(out, /url\(https?:/i);
 });
 
 test("shows all four metrics", () => {
@@ -572,7 +578,9 @@ const { render } = require("../renderers/social.js");
 test("renders self-contained svg at fixed width", () => {
   const out = render(fixture);
   assert.match(out, /width="820"/);
-  assert.doesNotMatch(out, /<script|on[a-z]+=|javascript:|<foreignObject|https?:\/\//i);
+  assert.doesNotMatch(out, /<script|on[a-z]+\s*=|javascript:|<foreignObject/i);
+  assert.doesNotMatch(out, /(?:href|src)\s*=\s*"(?:https?|//)/i);
+  assert.doesNotMatch(out, /url\(https?:/i);
 });
 
 test("shows the login handle with an at-sign", () => {
@@ -718,7 +726,9 @@ const { render } = require("../renderers/city.js");
 test("renders self-contained svg at fixed width", () => {
   const out = render(fixture);
   assert.match(out, /width="820"/);
-  assert.doesNotMatch(out, /<script|on[a-z]+=|javascript:|<foreignObject|https?:\/\//i);
+  assert.doesNotMatch(out, /<script|on[a-z]+\s*=|javascript:|<foreignObject/i);
+  assert.doesNotMatch(out, /(?:href|src)\s*=\s*"(?:https?|//)/i);
+  assert.doesNotMatch(out, /url\(https?:/i);
 });
 
 test("contains no embedded or referenced 3D asset", () => {
