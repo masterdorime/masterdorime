@@ -90,7 +90,11 @@ function render(snapshot) {
   // width was solved to that same budget, so the right edge lands on the
   // opposite padding and the block is centred without any fudge factor.
   const x0 = PAD + (ROWS - 1) * step;
-  const gridTop = HEAD_Y + 40;
+
+  // Towers rise UP from the grid, so the tallest one needs headroom above the
+  // first row rather than space below the last.
+  const maxTower = iso.heightFor(4) * scale;
+  const gridTop = HEAD_Y + 40 + maxTower;
 
   const cubes = lay.cells
     .map((cell) => {
@@ -100,12 +104,12 @@ function render(snapshot) {
     })
     .join("\n");
 
-  // Grid height: the ribbon's vertical extent plus the tallest possible tower,
-  // which extends downward from its anchor.
+  // Grid height: just the ribbon's vertical extent. The tallest tower now grows
+  // upward into headroom already reserved above gridTop, so adding its height
+  // again here would leave dead space at the bottom.
   const colSpan = Math.max(0, (lay.cols || 1) - 1);
-  const gridH =
-    colSpan * rowStep + (ROWS - 1) * rowStep + iso.heightFor(4) * scale * 0.9;
-  const height = Math.max(260, Math.ceil(gridTop + gridH + 26));
+  const gridH = colSpan * rowStep + (ROWS - 1) * rowStep + step * 0.6;
+  const height = Math.max(260, Math.ceil(gridTop + gridH + 22));
 
   // The panel directly above already says CONTRIBUTION CITY and states the
   // total, so repeating either here would read as a duplicate header. What this

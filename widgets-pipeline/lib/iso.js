@@ -96,8 +96,16 @@ function cube(x, y, level, scale = 1) {
   const tx = r2(Number(x) || 0);
   const ty = r2(Number(y) || 0);
 
+  // `y` is the GROUND line, not the cube's top. A building occupies
+  // [y - height, y]: the side faces are drawn from the group origin downward,
+  // so the origin has to be lifted by the full height or the tower hangs below
+  // the grid plane and the city reads as upside down. Verified against the
+  // asset this replaces: there, a tall cube's y is SMALLER than a flat cube's
+  // in the same column, which is the same convention.
+  const baseY = r2(ty - faceH);
+
   const parts = [
-    `  <g transform="translate(${tx} ${ty})">`,
+    `  <g transform="translate(${tx} ${baseY})">`,
     `    <rect width="${unit}" height="${topH}" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="${shades.top}"/>`,
   ];
 

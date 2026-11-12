@@ -2,6 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert");
 const fixture = require("../fixtures/snapshot.json");
 const { render } = require("../renderers/city3d.js");
+const iso = require("../lib/iso.js");
 
 test("renders self-contained svg at fixed width", () => {
   const out = render(fixture);
@@ -49,6 +50,34 @@ test("active days are visibly taller than empty days", () => {
   const sides = (active.match(/skewY\(30\) scale/g) || []).length;
   assert.strictEqual(tops, 2, "expected 2 floor/top faces, got " + tops);
   assert.strictEqual(sides, 1, "expected exactly 1 tower with sides, got " + sides);
+});
+
+test("buildings rise above the ground plane, not below it", () => {
+  // The city read as upside down once: side faces were drawn downward from the
+  // cube's origin, so towers hung under the grid. A tower's translate y must be
+  // ABOVE its own ground line, i.e. smaller than the y of a flat tile in the
+  // same grid slot. Compare one active and one empty day drawn at the same
+  // position by rendering each alone.
+  const yOf = (count) => {
+    const svg = render({ ...fixture, contributions: {
+      ...fixture.contributions,
+      days: [{ date: "2026-01-01", count }],
+    }});
+    const m = svg.match(/<g transform="translate\(([-\d.]+) ([-\d.]+)\)">/);
+    assert.ok(m, "no cube emitted");
+    return Number(m[2]);
+  };
+
+  const flatY = yOf(0);
+  const tallY = yOf(9);
+  assert.ok(
+    tallY < flatY,
+    `tower must rise: flat cube y=${flatY}, tower y=${tallY} (tower should be smaller)`
+  );
+  // And the lift must equal the tower's height, so the base stays on the grid.
+  const lift = flatY - tallY;
+  assert.ok(Math.abs(lift - iso.heightFor(iso.levelFor(9)) * 1) < 30,
+    "lift " + lift + " does not match the tower height");
 });
 
 test("an empty series still produces a valid panel", () => {
