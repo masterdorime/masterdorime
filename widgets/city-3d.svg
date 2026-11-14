@@ -20,7 +20,7 @@
   <title id="ttl">Contribution city, one year</title>
   <desc id="dsc">Contribution city: 552 contributions in the last year across 59 active days, busiest day 50. Each building is one day; taller means more contributions.</desc>
   <text x="30" y="62" font-size="13" letter-spacing="1.4" fill="#a8b6c4" fill-opacity="0.85">ONE YEAR · 53 WEEKS</text>
-  <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">2025-11-09 → 2026-11-13</text>
+  <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">2025-11-09 → 2026-11-14</text>
   <g transform="translate(106.26 135.05)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
@@ -1247,6 +1247,9 @@
     <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
   <g transform="translate(703.62 553.42)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  </g>
+  <g transform="translate(690.91 560.76)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
   <rect x="1" y="1" width="818" height="589" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
