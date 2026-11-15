@@ -18,9 +18,9 @@
     <circle cx="52" cy="40" r="4.6" fill="#fbbf24" fill-opacity="0.85"/>
     <circle cx="68" cy="40" r="4.6" fill="#34d399" fill-opacity="0.85"/>
   <title id="ttl">Contribution city, one year</title>
-  <desc id="dsc">Contribution city: 552 contributions in the last year across 59 active days, busiest day 50. Each building is one day; taller means more contributions.</desc>
+  <desc id="dsc">Contribution city: 553 contributions in the last year across 60 active days, busiest day 50. Each building is one day; taller means more contributions.</desc>
   <text x="30" y="62" font-size="13" letter-spacing="1.4" fill="#a8b6c4" fill-opacity="0.85">ONE YEAR · 53 WEEKS</text>
-  <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">2025-11-09 → 2026-11-14</text>
+  <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">2025-11-16 → 2026-11-15</text>
   <g transform="translate(106.26 135.05)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
@@ -852,8 +852,10 @@
   <g transform="translate(563.81 443.32)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(551.1 450.66)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(551.1 446.21)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
+    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
+    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
   <g transform="translate(538.39 458)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
@@ -873,10 +875,8 @@
   <g transform="translate(576.52 450.66)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(563.81 453.55)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
-    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
-    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
+  <g transform="translate(563.81 458)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
   <g transform="translate(551.1 465.34)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
@@ -899,20 +899,30 @@
   <g transform="translate(576.52 465.34)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(563.81 472.68)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(563.81 462.51)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(551.1 480.02)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(551.1 475.57)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
+    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
+    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
-  <g transform="translate(640.07 443.32)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(640.07 410.27)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
-  <g transform="translate(627.36 450.66)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(627.36 431.6)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
-  <g transform="translate(614.65 458)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(614.65 453.55)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
+    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
+    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
   <g transform="translate(601.94 465.34)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
@@ -920,36 +930,28 @@
   <g transform="translate(589.23 472.68)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(576.52 469.85)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  <g transform="translate(576.52 480.02)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(563.81 482.91)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
-    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
-    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
+  <g transform="translate(563.81 487.36)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(652.78 417.61)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  <g transform="translate(652.78 450.66)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(640.07 438.94)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
+  <g transform="translate(640.07 458)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(627.36 460.89)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
-    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
-    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
+  <g transform="translate(627.36 465.34)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
   <g transform="translate(614.65 472.68)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(601.94 480.02)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(601.94 469.85)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
   <g transform="translate(589.23 487.36)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
@@ -957,74 +959,86 @@
   <g transform="translate(576.52 494.7)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(665.49 458)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(665.49 447.83)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(652.78 465.34)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(652.78 460.89)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
+    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
+    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
   <g transform="translate(640.07 472.68)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(627.36 480.02)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(627.36 460.96)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
   <g transform="translate(614.65 477.19)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
     <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
     <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(601.94 494.7)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(601.94 484.53)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
   <g transform="translate(589.23 502.04)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(678.2 455.17)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(665.49 468.23)">
+  <g transform="translate(678.2 460.89)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
     <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
     <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
-  <g transform="translate(652.78 480.02)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
+  <g transform="translate(665.49 439.63)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
-  <g transform="translate(640.07 468.3)">
+  <g transform="translate(652.78 446.97)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  </g>
+  <g transform="translate(640.07 454.31)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  </g>
+  <g transform="translate(627.36 461.65)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  </g>
+  <g transform="translate(614.65 482.98)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
     <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
     <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
-  <g transform="translate(627.36 484.53)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(614.65 491.87)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(601.94 509.38)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
-  </g>
-  <g transform="translate(690.91 468.23)">
+  <g transform="translate(601.94 504.93)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
     <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
     <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
-  <g transform="translate(678.2 446.97)">
+  <g transform="translate(690.91 439.63)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
     <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
     <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
-  <g transform="translate(665.49 454.31)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  <g transform="translate(678.2 469.85)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  </g>
+  <g transform="translate(665.49 477.19)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
   <g transform="translate(652.78 461.65)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
@@ -1046,10 +1060,10 @@
     <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
     <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
-  <g transform="translate(703.62 446.97)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  <g transform="translate(703.62 460.96)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
   <g transform="translate(690.91 477.19)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
@@ -1061,195 +1075,165 @@
     <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
     <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(665.49 468.99)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  <g transform="translate(665.49 491.87)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(652.78 476.33)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  <g transform="translate(652.78 490.32)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
   <g transform="translate(640.07 497.66)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
     <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
     <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
-  <g transform="translate(627.36 519.61)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
-    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
-    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
+  <g transform="translate(627.36 505)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
   <g transform="translate(716.33 468.3)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
     <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
     <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
-  <g transform="translate(703.62 484.53)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(690.91 491.87)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(678.2 499.21)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(665.49 497.66)">
+  <g transform="translate(703.62 475.64)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
     <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
     <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
-  <g transform="translate(652.78 505)">
+  <g transform="translate(690.91 482.98)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
     <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
     <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
+  </g>
+  <g transform="translate(678.2 476.33)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  </g>
+  <g transform="translate(665.49 483.67)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  </g>
+  <g transform="translate(652.78 513.89)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
   <g transform="translate(640.07 512.34)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
     <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
     <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
-  <g transform="translate(729.04 475.64)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
+  <g transform="translate(729.04 484.53)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(716.33 482.98)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
+  <g transform="translate(716.33 468.99)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
-  <g transform="translate(703.62 490.32)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
+  <g transform="translate(703.62 476.33)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
   <g transform="translate(690.91 483.67)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
     <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
     <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
-  <g transform="translate(678.2 491.01)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  <g transform="translate(678.2 505)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
   <g transform="translate(665.49 521.23)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
     <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
     <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(652.78 519.68)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
-  </g>
-  <g transform="translate(741.75 491.87)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(729.04 476.33)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
-  </g>
-  <g transform="translate(716.33 483.67)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
-  </g>
-  <g transform="translate(703.62 491.01)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
-    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
-    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
-  </g>
-  <g transform="translate(690.91 512.34)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
-  </g>
-  <g transform="translate(678.2 528.57)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(665.49 541.63)">
+  <g transform="translate(652.78 534.29)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
     <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
     <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
+  </g>
+  <g transform="translate(741.75 482.98)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
+  </g>
+  <g transform="translate(729.04 499.21)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  </g>
+  <g transform="translate(716.33 506.55)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  </g>
+  <g transform="translate(703.62 513.89)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  </g>
+  <g transform="translate(690.91 521.23)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  </g>
+  <g transform="translate(678.2 519.68)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
+    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
+    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
+  </g>
+  <g transform="translate(665.49 535.91)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
+    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
+    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
   <g transform="translate(754.46 490.32)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
     <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
     <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
   </g>
-  <g transform="translate(741.75 506.55)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  <g transform="translate(741.75 512.27)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
+    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
+    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
-  <g transform="translate(729.04 513.89)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
+  <g transform="translate(729.04 519.61)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
+    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
+    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
   </g>
   <g transform="translate(716.33 521.23)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
     <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
     <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(703.62 528.57)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(690.91 527.02)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
-  </g>
-  <g transform="translate(678.2 543.25)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(767.17 497.66)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#5eead4"/>
-    <rect width="11.44" height="19.06" transform="skewY(30) scale(1 1.15)" fill="#47b8a7"/>
-    <rect width="11.44" height="19.06" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#358a7e"/>
-  </g>
-  <g transform="translate(754.46 519.61)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
-    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
-    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
-  </g>
-  <g transform="translate(741.75 526.95)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
-    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
-    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
-  </g>
-  <g transform="translate(729.04 528.57)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2dd4bf"/>
-    <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
-    <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
-  </g>
-  <g transform="translate(716.33 513.03)">
+  <g transform="translate(703.62 505.69)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
     <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
     <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
   </g>
-  <g transform="translate(703.62 553.42)">
+  <g transform="translate(690.91 546.08)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
-  <g transform="translate(690.91 560.76)">
+  <g transform="translate(678.2 548.97)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
+    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
+    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
+  </g>
+  <g transform="translate(767.17 516.72)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
   <rect x="1" y="1" width="818" height="589" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
