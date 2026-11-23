@@ -18,9 +18,9 @@
     <circle cx="52" cy="40" r="4.6" fill="#fbbf24" fill-opacity="0.85"/>
     <circle cx="68" cy="40" r="4.6" fill="#34d399" fill-opacity="0.85"/>
   <title id="ttl">Contribution city, one year</title>
-  <desc id="dsc">Contribution city: 615 contributions in the last year across 69 active days, busiest day 50. Each building is one day; taller means more contributions.</desc>
+  <desc id="dsc">Contribution city: 635 contributions in the last year across 69 active days, busiest day 50. Each building is one day; taller means more contributions.</desc>
   <text x="30" y="62" font-size="13" letter-spacing="1.4" fill="#a8b6c4" fill-opacity="0.85">ONE YEAR · 53 WEEKS</text>
-  <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">2025-11-23 → 2026-11-22</text>
+  <text x="790" y="62" font-size="12" text-anchor="end" fill="#5a6b7a">2025-11-23 → 2026-11-23</text>
   <g transform="translate(106.26 135.05)">
     <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
@@ -1249,10 +1249,13 @@
     <rect width="11.44" height="10.17" transform="skewY(30) scale(1 1.15)" fill="#22a396"/>
     <rect width="11.44" height="10.17" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1a7d73"/>
   </g>
-  <g transform="translate(767.17 512.27)">
-    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#2f8e84"/>
-    <rect width="11.44" height="4.45" transform="skewY(30) scale(1 1.15)" fill="#247067"/>
-    <rect width="11.44" height="4.45" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#1b534d"/>
+  <g transform="translate(767.17 483.67)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#22d3ee"/>
+    <rect width="11.44" height="33.05" transform="skewY(30) scale(1 1.15)" fill="#1aa5bb"/>
+    <rect width="11.44" height="33.05" transform="translate(11.44 6.6) skewY(-30) scale(1 1.15)" fill="#14788a"/>
+  </g>
+  <g transform="translate(754.46 524.06)">
+    <rect width="11.44" height="11.44" transform="skewY(-30) skewX(40.89) scale(1 1.15)" fill="#243642"/>
   </g>
   <rect x="1" y="1" width="818" height="589" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
 </svg>
